@@ -65,7 +65,7 @@
     {
                             "lineTrigger": "SetMusicTo",
                             "move": "",
-                            "theText": ["../Mods/IzebelsMansion/Music/Izebel_Battle_-_Rakshasa.mp3"]
+                            "theText": ["../Mods/IzebelsMansion/Music/Izebel_Battle_-_Bamboo_Sword.ogg"]
                         },
                         {
                             "lineTrigger": "StartOfCombat",
@@ -75,130 +75,130 @@
                         {
                             "lineTrigger": "HitWith",
                             "move": "Spank",
-                            "theText": [ "'Have you grabbed enough?'",
-                                         "'Is that all?'",
-                                         "'I'd prefer it if you just let me do the work.'"]
+                            "theText": [ "Have you grabbed enough?",
+                                         "Is that all?",
+                                         "I'd prefer it if you just let me do the work."]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Pin",
-                            "theText": [ "'Mmm....naughty, I like it'",
-                                         "'Thatta boy, let's breed like the animals we are.'"]
+                            "theText": [ "Mmm....naughty, I like it",
+                                         "Thatta boy, let's breed like the animals we are."]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Whip",
-                            "theText": [ "'Mmmm, I'm not used to this'",
-                                         "'Maybe I need to teach {i}you{/i} a lesson!'"]
+                            "theText": [ "Mmmm, I'm not used to this.",
+                                         "Maybe I need to teach {i}you{/i} a lesson!"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Demon Layer",
-                            "theText": [ "'My my, aren't we the Devil today?'|f|CallCombatEventAndScene|/|IzebelCombatEvents|/|I'm Not Your Damn Saint"]
+                            "theText": [ "My my, aren't we the Devil today?|f|CallCombatEventAndScene|/|IzebelCombatEvents|/|I'm Not Your Damn Saint"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Holy Headpat",
-                            "theText": [ "'I don't mind being your devil, but keep the saint out of it.'|f|CallCombatEventAndScene|/|IzebelCombatEvents|/|I'm Not Your Damn Saint"]
+                            "theText": [ "I don't mind being your devil, but keep the saint out of it.'|f|CallCombatEventAndScene|/|IzebelCombatEvents|/|I'm Not Your Damn Saint"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Electrify",
-                            "theText": [ "'Mmm....naughty, I like it'",
-                                         "'Igniting my passion has never been this much fun!'"]
+                            "theText": [ "Mmm....naughty, I like it",
+                                         "Igniting my passion has never been this much fun!"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Lewd Bottle", "Cloying Mist", "Placebo Pheromone"],
-                            "theText": [ "'Sometimes payback is a bitch, but so am I!'",
-                                         "'You Fool! I'm supposed to be the leader!!'"]
+                            "theText": [ "Sometimes payback is a bitch, but so am I!",
+                                         "You Fool! I'm supposed to be the leader!!"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Kiss",
-                            "theText": [ "'Mmm...♥ I'll kiss you as much as you want.'",
-                                         "'You can be more intimate than that..♥'"]
+                            "theText": [ "Mmm...♥ I'll kiss you as much as you want.",
+                                         "You can be more intimate than that..♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Deep Kiss", "Lovingly Rough Kiss", "Skillfully Passionate Kiss", "Misty Kiss", "Sensually Seductive Kiss"],
-                            "theText": [ "'Mmmm...♥'",
-                                         "'You're going to be my personal little toy at this rate.'"]
+                            "theText": [ "Mmmm...♥",
+                                         "You're going to be my personal little toy at this rate."]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Make Out",
-                            "theText": [ "'Mmm, there's nothing like a kiss to ignite our passions'",
-                                         "'You can be more intimate than that..♥'"]
+                            "theText": [ "Mmm, there's nothing like a kiss to ignite our passions",
+                                         "You can be more intimate than that..♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Tit Fucking"],
-                            "theText": [ "'I'm going to use my breasts to your heart's content, and use my tongue to serve you.♥'"]
+                            "theText": [ "I'm going to use my breasts to your heart's content, and use my tongue to serve you.♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Breast Caress",
-                            "theText": [ "'Why not try and suck them while I take control?♥'",
-                                         "'Mmmmm, caress my pillows as much as you want.♥'"]
+                            "theText": [ "Why not try and suck them while I take control?♥",
+                                         "Mmmmm, caress my pillows as much as you want.♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Breast Knead", "Breast Massage", "Breast Fondle"],
-                            "theText": [ "'Want me to do something special? Just for you?'"]
+                            "theText": [ "Want me to do something special? Just for you?"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Suckle",
-                            "theText": [ "'Looks like this toy was thirsty'",
-                                         "'Darling, Let me help with that down there, he's looking awful lonely.♥'"]
+                            "theText": [ "Looks like this toy was thirsty",
+                                         "Darling, Let me help with that down there, he's looking awful lonely.♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Pinch Nipples",
-                            "theText": [ "'Feisty, I like it.'"]
+                            "theText": [ "Feisty, I like it."]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Grope Ass", "Squeeze Ass", "Massage Ass", "Fondle Ass"],
-                            "theText": [ "'Squeeze my ass much as you want darling. But don't get carried away.♥'"]
+                            "theText": [ "Squeeze my ass much as you want darling. But don't get carried away.♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Arouse", "Arousara", "Arousero"],
-                            "theText": [ "'Don't get me too excited, you might regret it.'",
-                                         "'Mmm, someone's trying to be on my naughty list.♥'"]
+                            "theText": [ "Don't get me too excited, you might regret it.",
+                                         "Mmm, someone's trying to be on my naughty list.♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Finger",
-                            "theText": [ "'Mnnn...♥'",
-                                         "'Aaaah...♥'"]
+                            "theText": [ "Mnnn...♥",
+                                         "Aaaah...♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Dildo",
-                            "theText": [ "'I want your little sailors hun, not a plaything.'"]
+                            "theText": [ "I want your little sailors hun, not a plaything."]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Seduce", "Enamor", "Smoldering Seduction", "Smoldering Flaunt", "Massaging Seduction", "Mass Seduction"],
-                            "theText": [ "'My my, your flattery is unneeded'"]
+                            "theText": [ "My my, your flattery is unneeded"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Ear Tease",
-                            "theText": [ "'Well... Aren't you interesting?'"]
+                            "theText": [ "Well... Aren't you interesting?"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Charm", "Charm Wave"],
-                            "theText": [ "'Dear...please.'"]
+                            "theText": [ "Dear...please."]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Enfeeble", "Sensitize", "Distract"],
-                            "theText": [ "'If you keep being naughty like that, I'll have to punish you.'"]
+                            "theText": [ "If you keep being naughty like that, I'll have to punish you."]
                         },
                         {
                             "lineTrigger": "Escape",
@@ -213,13 +213,13 @@
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Thrust", "Channeling Thrust"],
-                            "theText": [ "'MMmmm...I'm going to fuck you senseless.♥'"]
+                            "theText": [ "MMmmm...I'm going to fuck you senseless.♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Pound", "Multi Thrust", "Carrying Fuck"],
                             "theText": [ "{i}Ahh!♥ Yes!♥ Make me yours!{i}♥",
-                                         "'Aaaah!♥'"]
+                                         "Aaaah!♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
@@ -229,26 +229,26 @@
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Tantric Thrust", "Passionate Lovemaking"],
-                            "theText": [ "'She bites her lip as she grabs a hold of you'",
+                            "theText": [ "She bites her lip as she grabs a hold of you",
                                          "{i}Mmmm....fucking stud is making a whore out of me! ♥♥♥{/i}",
                                          "{i}Ahhhh...Ahhhh, You're driving me wild! M-My mind's going blank{/i}...♥♥♥"]
                         },
                         {
                             "lineTrigger": "UsesMove",
                             "move": "Wild Bamboo Ride",
-                            "theText": [ "'Ahha...I don't plan to hold back. I want it all♥'",
-                                         "'My heart is already racing...♥''"]
+                            "theText": [ "Ahha...I don't plan to hold back. I want it all♥",
+                                         "My heart is already racing...♥"]
                         },
                         {
                              "lineTrigger": "UsesMove",
                              "move": "Dominatrix Charm",
-                             "theText": [ "'Admit it, you can't resist♥''",
-                                          "'You like what you see boy?♥'"]
+                             "theText": [ "Admit it, you can't resist♥",
+                                          "You like what you see boy?♥"]
                         },
                         {
                              "lineTrigger": "UsesMove",
                              "move": "Hypnotic Suggestion",
-                             "theText": [ "'Want me to give you a lullaby?'"]
+                             "theText": [ "Want me to give you a lullaby?"]
                         },
                         {
                              "lineTrigger": "UsesMove",
@@ -269,14 +269,14 @@
                         {
                              "lineTrigger": "PlayerLowHealth",
                              "move": "",
-                             "theText": [ "|n|Ahhh...Your cock's pulsing. {i}Cum already dammit!{/i}",
-                                          "|n|Cum as much as you want, I'll take extra good care of you.♥",
-                                          "|n|Mmmm...♥ Go on, cum, I know you want to.♥"]
+                             "theText": [ "Ahhh...Your cock's pulsing. {i}Cum already dammit!{/i}",
+                                          "Cum as much as you want, I'll take extra good care of you.♥",
+                                          "Mmmm...♥ Go on, cum, I know you want to.♥"]
                         },
                         {
                              "lineTrigger": "OnPlayerOrgasm",
                              "move": "Blowjob",
-                             "theText": [ "You moan in delight as Izebel sweetly and slowly bobs her head with your cock in her mouth, leaving little black lipstick marks. She wraps her arms around your waist and brings you close, causing you to moan as she skillfully vacuum sucks your cock, you suddenly cum, erupting from the stimulation. |n|Izebel swallows only for your cock to be released from her mouth to be assaulted again by her lips and tongue despite you still spurting smaller doses and hitting her face. Her licks and suctions further lubricating your shaft, the sensation drives you wild as you harden again, her assualt as relentless as it could be. |n|The panda hums contently as she slows down her movements, her hand keeps pumping your cock as her lips then reach down to skillfully suck on your sack, as if encouraging you to give her more. You find yourself in terrible need, in which she makes a sultry giggle as she assaults your cock again in delight as she gives your balls a final fondling. |n|The pleasure is becoming too much to withstand, and as she quickens her pace urging you to cum, you're sent over the edge as you give her your load she longed for. |n|Izebel catches herself in surprise as you unload so much that she frees your cock from her mouth as you continue to shower her mouth, face, and chest with your seed. She looked beautiful as she worshipped your cock holding out her hands for what was left and gave a laugh. She licked the semen off her fingers in sheer delight as she was proud of her worship. |n|'My, my, you're such a naughty little boy.♥'"]
+                             "theText": [ "You moan in delight as Izebel sweetly and slowly bobs her head with your cock in her mouth, leaving little black lipstick marks. She wraps her arms around your waist and brings you close, causing you to moan as she skillfully vacuum sucks your cock, you suddenly cum, erupting from the stimulation. |n|Izebel swallows only for your cock to be released from her mouth to be assaulted again by her lips and tongue despite you still spurting smaller doses and hitting her face. Her licks and suctions further lubricating your shaft, the sensation drives you wild as you harden again, her assault as relentless as it could be. |n|The panda hums contently as she slows down her movements, her hand keeps pumping your cock as her lips then reach down to skillfully suck on your sack, as if encouraging you to give her more. You find yourself in terrible need, in which she makes a sultry giggle as she assaults your cock again in delight as she gives your balls a final fondling. |n|The pleasure is becoming too much to withstand, and as she quickens her pace urging you to cum, you're sent over the edge as you give her your load she longed for. |n|Izebel catches herself in surprise as you unload so much that she frees your cock from her mouth as you continue to shower her mouth, face, and chest with your seed. She looked beautiful as she worshipped your cock holding out her hands for what was left and gave a laugh. She licked the semen off her fingers in sheer delight as she was proud of her worship. |n|'My, my, you're such a naughty little boy.♥'"]
                         },
                         {
                              "lineTrigger": "OnPlayerOrgasm",
@@ -303,12 +303,12 @@
                         {
                             "lineTrigger": "onOrgasm",
                             "move": "Blowjob",
-                            "theText": [ "You moan in delight as Izebel sweetly and slowly bobs her head with your cock in her mouth, leaving little black lipstick marks. She wraps her arms around your waist and brings you close, causing you to moan as she skillfully vacuum sucks your cock, you suddenly cum, erupting from the stimulation. |n|Izebel swallows only for your cock to be released from her mouth to be assaulted again by her lips and tongue despite you still spurting smaller doses and hitting her face. Her licks and suctions further lubricating your shaft, but also turning herself on as she starts to finger herself. The sensation drives you wild as you harden again, her assualt as relentless as it could be. |n|The panda hums contently as she slows down her movements, her hand keeps pumping your cock as her lips then reach down to skillfully suck on your sack, as if encouraging you to give her more. You find yourself in terrible need, in which she makes a sultry giggle as she assaults your cock again in delight as she gives your balls a final fondling. |n|The pleasure is becoming too much to withstand, and as she quickens her pace urging you to cum, you're sent over the edge as you give her your load she longed for. |n|Izebel catches herself in surprise as  you unload so much that she frees your cock from her mouth and orgasms at the same time as you continue to shower her mouth, face, and chest with your seed. She looked beautiful as she worshipped your cock holding out her hands for what was left and gave a laugh. She licked the semen off her fingers in sheer delight as she was proud of her worship. |n|'My, my, you're such a naughty little boy. You even turned me on, I'll have to repay the favor.♥'"]
+                            "theText": [ "You moan in delight as Izebel sweetly and slowly bobs her head with your cock in her mouth, leaving little black lipstick marks. She wraps her arms around your waist and brings you close, causing you to moan as she skillfully vacuum sucks your cock, you suddenly cum, erupting from the stimulation. |n|Izebel swallows only for your cock to be released from her mouth to be assaulted again by her lips and tongue despite you still spurting smaller doses and hitting her face. Her licks and suctions further lubricating your shaft, but also turning herself on as she starts to finger herself. The sensation drives you wild as you harden again, her assault as relentless as it could be. |n|The panda hums contently as she slows down her movements, her hand keeps pumping your cock as her lips then reach down to skillfully suck on your sack, as if encouraging you to give her more. You find yourself in terrible need, in which she makes a sultry giggle as she assaults your cock again in delight as she gives your balls a final fondling. |n|The pleasure is becoming too much to withstand, and as she quickens her pace urging you to cum, you're sent over the edge as you give her your load she longed for. |n|Izebel catches herself in surprise as  you unload so much that she frees your cock from her mouth and orgasms at the same time as you continue to shower her mouth, face, and chest with your seed. She looked beautiful as she worshipped your cock holding out her hands for what was left and gave a laugh. She licked the semen off her fingers in sheer delight as she was proud of her worship. |n|'My, my, you're such a naughty little boy. You even turned me on, I'll have to repay the favor.♥'"]
                         },
                         {
                              "lineTrigger": "OnSurrender",
                              "move": "",
-                             "theText": [ "'Hhehehehehe, I promise to make you feel {i}goooood{/i}♥'"]
+                             "theText": [ "Hhehehehehe, I promise to make you feel {i}goooood{/i}♥"]
                         },
                         {
                              "lineTrigger": "StanceStruggle",
@@ -324,7 +324,7 @@
                         {
                              "lineTrigger": "StanceStruggleComment",
                              "move": "Titfuck",
-                             "theText": [ "'Don't try and deny my charms, you know you want to'",
+                             "theText": [ "Don't try and deny me, you know you want to",
                                           "She teasingly shakes her chest with a small, devilish smile."]
                         },
                         {
@@ -335,8 +335,8 @@
                         {
                              "lineTrigger": "StanceStruggleFreeComment",
                              "move": "Titfuck",
-                             "theText": [ "'I bet you'd rather fuck me instead, hmm?'",
-                                          "'Maybe some kisses will change your mind?'"]
+                             "theText": [ "I bet you'd rather fuck me instead, hmm?",
+                                          "Maybe some kisses will change your mind?"]
                         },
                         {
                              "lineTrigger": "StanceStruggle",
@@ -362,8 +362,8 @@
                         {
                              "lineTrigger": "StanceStruggleFreeComment",
                              "move": "Making Out",
-                             "theText": [ "'Playing hard to get won't work, I always get the hard ones, quite literally I might add. {i}She points to your erection{/i}",
-                                          "'Would you rather I sandwich your cock in my breasts instead?'"]
+                             "theText": [ "Playing hard to get won't work, I always get the hard ones, quite literally I might add.",
+                                          "Would you rather I sandwich your cock in my breasts instead?"]
                         }
                         ],
 "victoryScenes": [

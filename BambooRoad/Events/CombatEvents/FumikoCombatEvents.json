@@ -20,7 +20,7 @@
                                       "Speaks",
                                       "You wouldn't hurt me would you?",
                                       "ApplyStatusEffect",
-                                      "Trance",
+                                      "Charm",
                                       "Speaks",
                                       "All I want to do is pleasure you~.♥",
                                       "ApplyStance",
@@ -78,7 +78,7 @@
                                      "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Sex", "25", "2",
                                      "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Sex", "50", "3",
                                      "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Sex", "75", "5",
-                                     "ChangeStatCheckDifficulty", "IfPlayerHasStatusEffect", "Trance", "4",
+                                     "ChangeStatCheckDifficulty", "IfPlayerHasStatusEffect", "Charm", "4",
                                      "Temptation", "15", "IgnoredSex",
                                      "Fail",
                                      "CantResistOffer"]
@@ -91,7 +91,7 @@
                                      "ApplyStatusEffectToMonster",
                                      "Stun",
                                      "FocusedSpeaks",
-                                     "'Ahhhh, my head'"]
+                                     "Ahhhh, my head"]
                },
                {
                        "NameOfScene": "CantResistOffer",

@@ -63,118 +63,118 @@
       "lineTrigger": "SetMusicTo",
       "move": "",
       "theText": [
-				"../../Mods/IzebelsMansion/Music/Fumiko_Battle_-_Dance_Of_Death.mp3"
+				"../../Mods/IzebelsMansion/Music/Fumiko_Battle_-_Rakshasa.mp3"
 			]
     },
 		{
 			"lineTrigger": "UsesMove",
 			"move": "Hairjob",
 			"theText": [
-				"'Ah!..I can feel you! Your dick is so hard~♥'",
-				"'Won't you cum for me?~♥'",
-				"'It feels so nice, I want it so bad~♥'"
+				"Ah!..I can feel you! Your dick is so hard~♥",
+				"Won't you cum for me?~♥",
+				"It feels so nice, I want it so bad~♥"
 			]
 		},
 		{
 			"lineTrigger": "UsesMove",
 			"move": "Hair Tease",
 			"theText": [
-				"'Does this tickle?~.♥'",
-				"'Why not come closer?~♥'",
-				"'Hahaha~♥'"
+				"Does this tickle?~.♥",
+				"Why not come closer?~♥",
+				"Hahaha~♥"
 			]
 		},
 		{
 			"lineTrigger": "UsesMove",
 			"move": "SensualHairjob",
 			"theText": [
-				"'Ahh, your cock is getting harder!♥'",
-				"'Are you about to cum?~♥'",
-				"'Please cum, there's no harm in it~♥'"
+				"Ahh, your cock is getting harder!♥",
+				"Are you about to cum?~♥",
+				"Please cum, there's no harm in it~♥"
 			]
 		},
 		{
 			"lineTrigger": "UsesMove",
 			"move": "Prehensile Hair",
 			"theText": [
-				"'Come closer darling~♥'",
-				"'Don't you want to be together?~♥'",
-				"'Promise you'll love me~♥'"
+				"Come closer darling~♥",
+				"Don't you want to be together?~♥",
+				"Promise you'll love me~♥"
 			]
 		},
 		{
 			"lineTrigger": "UsesMove",
 			"move": "Hair Whip",
 			"theText": [
-				"'Hahahaha~♥'",
-				"'If you won't come closer, I'll have to punish you~♥'"
+				"Hahahaha~♥",
+				"If you won't come closer, I'll have to punish you~♥"
 			]
 		},
 		{
 			"lineTrigger": "UsesMove",
 			"move": "Suffocating Sex",
 			"theText": [
-				"'Ahh! Ah! Yes! Fertilize me!!~♥'",
-				"'Oh Darling! Yes!~♥'",
-				"'Dominate Me!~♥ Milk me!~♥ I want it all!~♥"
+				"Ahh! Ah! Yes! Fertilize me!!~♥",
+				"Oh Darling! Yes!~♥",
+				"Dominate Me!~♥ Milk me!~♥ I want it all!~♥"
 			]
 		},
 		{
 			"lineTrigger": "UsesMove",
 			"move": "Breast Smothering",
 			"theText": [
-				"'How do you like my soft breasts?~♥'",
-				"'Why not milk me?~♥'"
+				"How do you like my soft breasts?~♥",
+				"Why not milk me?~♥"
 			]
 		},
 		{
 			"lineTrigger": "UsesMove",
 			"move": "Breast Suffocation",
 			"theText": [
-				"'Can we sleep together?~♥'",
-				"'I promise they're soft~♥'"
+				"Can we sleep together?~♥",
+				"I promise they're soft~♥"
 			]
 		},
 		{
 			"lineTrigger": "UsesMove",
 			"move": "Distract",
 			"theText": [
-				"'How about we have a different kind of fun?~♥'",
-				"'Let's play a different kind of game~♥'"
+				"How about we have a different kind of fun?~♥",
+				"Let's play a different kind of game~♥"
 			]
 		},
 		{
 			"lineTrigger": "UsesMove",
 			"move": "Arousera",
 			"theText": [
-				"'Mmmm...my arousal is driving me insane~♥'",
-				"'Feel my love for you~♥'",
-				"'I feel so hot~♥'"
+				"Mmmm...my arousal is driving me insane~♥",
+				"Feel my love for you~♥",
+				"I feel so hot~♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWith",
 			"move": "Caress",
 			"theText": [
-				"'Ahhh...I love your touch~♥'",
-				"'I want to feel you too~♥'",
-				"'I want you {ThePlayerName}~♥'"
+				"Ahhh...I love your touch~♥",
+				"I want to feel you too~♥",
+				"I want you {ThePlayerName}~♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWith",
 			"move": "Penetrate",
 			"theText": [
-				"'Ahh! My mind is going blank~♥'",
-				"'Ahn~!♥ Let's make lots of children~♥'",
-				"'Good boi~♥ Now lets lose ourselves in ecstasy~♥♥♥'"
+				"Ahh! My mind is going blank~♥",
+				"Ahn~!♥ Let's make lots of children~♥",
+				"Good boi~♥ Now lets lose ourselves in ecstasy~♥♥♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWith",
 			"move": ["Thrust", "Multi Thrust", "Empowered Thrust", "Channeling Thrust"],
 			"theText": [
-				"'Give me everything~♥'",
+				"Give me everything~♥",
 				"{i}Gasp{/i}♥'",
 				"|f|CallCombatEventAndScene|/|FumikoCombatEvents|/|Hair Whip"
 			]
@@ -183,8 +183,8 @@
 			"lineTrigger": "HitWithA",
 			"move": ["Thrust", "Multi Thrust", "Empowered Thrust", "Channeling Thrust"],
 			"theText": [
-				"'Ah! N-not my ass! I want to make babies!'",
-				"'A-ah, please {ThePlayerName}...'",
+				"Ah! N-not my ass! I want to make babies!",
+				"A-ah, please {ThePlayerName}...",
 				"|f|CallCombatEventAndScene|/|FumikoCombatEvents|/|Hair Whip"
 			]
 		},
@@ -199,78 +199,78 @@
 			"lineTrigger": "HitWith",
 			"move": "Pound",
 			"theText": [
-				"'Fuck me as hard as you want {ThePlayerName}~♥'",
-				"'Oh goddess yes!~♥'",
-				"'Fertilize me!~♥'"
+				"Fuck me as hard as you want {ThePlayerName}~♥",
+				"Oh goddess yes!~♥",
+				"Fertilize me!~♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWithA",
 			"move": "Pound",
 			"theText": [
-				"'A-ah... Please {ThePlayerName} not my ass!~♥'",
-				"'I've never felt so...weird~♥'"
+				"A-ah... Please {ThePlayerName} not my ass!~♥",
+				"I've never felt so...weird~♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWith",
 			"move": "Tantric Thrust",
 			"theText": [
-				"'Mooore~♥'",
-				"'Faster~♥'",
-				"'Fuck me harder!~♥'"
+				"Mooore~♥",
+				"Faster~♥",
+				"Fuck me harder!~♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWithA",
 			"move": "Tantric Thrust",
 			"theText": [
-				"'Ahn~.. my mind is going blank...♥'",
-				"'I feel so numb...♥'",
-				"'P-please n-no more...I can't take much more!~♥'"
+				"Ahn~.. my mind is going blank...♥",
+				"I feel so numb...♥",
+				"P-please n-no more...I can't take much more!~♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWith",
 			"move": "Passionate Lovemaking",
 			"theText": [
-				"Fumiko squeezes {ThePlayerName}'s with her hair to create a better grip 'I think I'm going to faint, so much pleasure!~♥♥♥'",
-				"'Cum inside me {ThePlayerName}~♥'",
-				"'Your cock is pulsing, please cum soon!♥♥♥'"
+				"I think I'm going to faint, so much pleasure!~♥♥♥",
+				"Cum inside me {ThePlayerName}~♥",
+				"Your cock is pulsing, please cum soon!♥♥♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWithA",
 			"move": "Passionate Lovemaking",
 			"theText": [
-				"'A-Ah, Ahn! This is too much!~♥'",
-				"'Please! I can't take much more, I'll even let you go!~♥'",
-				"'My ass feels so annihilated!~♥'"
+				"A-Ah, Ahn! This is too much!~♥",
+				"Please! I can't take much more, I'll even let you go!~♥",
+				"My ass feels so annihilated!~♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWith",
 			"move": "Anal Piston",
 			"theText": [
-				"'Goddess..help me!~♥'",
-				"'S-slower...please, I'll cum at this rate~♥'"
+				"Goddess..help me!~♥",
+				"S-slower...please, I'll cum at this rate~♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWith",
 			"move": "Carrying Fuck",
 			"theText": [
-				"'Ahh I love it when you dominate me {ThePlayerName}~♥'",
-				"'Fuck me as hard as you want!~♥ Impregnate me!~♥♥♥'"
+				"Ahh I love it when you dominate me {ThePlayerName}~♥",
+				"Fuck me as hard as you want!~♥ Impregnate me!~♥♥♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWithA",
 			"move": "Carrying Fuck",
 			"theText": [
-				"'Ahn~.. I'm dizzy...its making me so horny...♥'",
-				"'Please! I can't take much more, I'll even let you go!~♥'",
-				"'{ThePlayerName}...its too good~♥"
+				"Ahn~.. I'm dizzy...its making me so horny...♥",
+				"Please! I can't take much more, I'll even let you go!~♥",
+				"{ThePlayerName}...its too good~♥"
 			]
 		},
 		{
@@ -284,8 +284,8 @@
 			"lineTrigger": "HitWith",
 			"move": ["Grope Ass", "Squeeze Ass", "Massage Ass", "Fondle Ass"],
 			"theText": [
-				"'Be gentle! I only have one ass'",
-				"'I feel weird when you do that'",
+				"Be gentle! I only have one ass",
+				"I feel weird when you do that",
 				"|f|CallCombatEventAndScene|/|FumikoCombatEvents|/|Hair Whip"
 			]
 		},
@@ -293,32 +293,32 @@
 			"lineTrigger": "HitWith",
 			"move": ["Breast Caress"],
 			"theText": [
-				"'Why not play with them {ThePlayerName}?~♥'",
-				"'They're soft aren't they {ThePlayerName}?~♥'"
+				"Why not play with them {ThePlayerName}?~♥",
+				"They're soft aren't they {ThePlayerName}?~♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWith",
 			"move": "Suckle",
 			"theText": [
-				"'Ahn~ Please milk me {ThePlayerName}~♥'",
-				"'I'll nurse you all you want~♥'",
-				"'You've made my nipples so sensitive~♥'"
+				"Ahn~ Please milk me {ThePlayerName}~♥",
+				"I'll nurse you all you want~♥",
+				"You've made my nipples so sensitive~♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWith",
 			"move": "Anal Penetration",
 			"theText": [
-				"'Aaaaah! W-wait! Not there!!"
+				"Aaaaah! W-wait! Not there!!"
 			]
 		},
 		{
 			"lineTrigger": "AutoCounter",
 			"move": ["Pinch Nipples", "Spank"],
 			"theText": [
-				"'Aaaahn! You little...~♥'",
-				"'You're so rough...makes me want to",
+				"Aaaahn! You little...~♥",
+				"You're so rough...makes me want to",
 				"|f|CallCombatEventAndScene|/|FumikoCombatEvents|/|Hair Whip"
 			]
 		},
@@ -326,8 +326,8 @@
 			"lineTrigger": "HitWith",
 			"move": ["Breast Knead", "Breast Fondle", "Breast Massage"],
 			"theText": [
-				"'I love it when you grab my breasts like that~.♥'",
-				"'Ahn!...mmmmmm~♥'",
+				"I love it when you grab my breasts like that~.♥",
+				"Ahn!...mmmmmm~♥",
 				"|f|CallCombatEventAndScene|/|FumikoCombatEvents|/|Hair Whip"
 			]
 		},
@@ -335,43 +335,43 @@
 			"lineTrigger": "HitWith",
 			"move": ["Seduce", "Mass Seduction", "Enamor", "Smoldering Flaunt", "Smoldering Seduction"],
 			"theText": [
-				"'Oh my....you're very flirty~♥'",
-				"'Your teases are just making me hotter~♥'",
-				"'Why not just breed me now~♥'"
+				"Oh my....you're very flirty~♥",
+				"Your teases are just making me hotter~♥",
+				"Why not just breed me now~♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWith",
 			"move": ["Massaging Seduction", "Ear Tease"],
 			"theText": [
-				"You feel a reaction of delight in Fumiko's body. 'Mmm~♥♥♥'",
-				"Why don't you just stick your manhood in me already and skip the poetry~♥'"
+				"You feel a reaction of delight in Fumiko's body. 'Mmm~♥♥♥",
+				"Why don't you just stick your manhood in me already and skip the poetry~♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWith",
 			"move": "Kiss",
 			"theText": [
-				"Your kiss sets Fumiko offguard. 'Mmm, I've never had someone kiss me before..'",
-				"She looked as if she was asking for more. 'I don't know how to feel about that..'",
-				"'Ahn! Why kiss when my pussy is ready for you?~♥'"
+				"Your kiss sets Fumiko offguard. 'Mmm, I've never had someone kiss me before..",
+				"She looked as if she was asking for more. 'I don't know how to feel about that..",
+				"Ahn! Why kiss when my pussy is ready for you?~♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWith",
 			"move": "Make Out",
 			"theText": [
-				"Fumiko finds herself pressing her body against yours unexepectedlysomewhat tightly wraps her arms around your body. 'What am I doing?'",
-				"'This is...Romantic~♥'"
+				"Fumiko finds herself pressing her body against yours unexepectedly somewhat tightly wraps her arms around your body. {i}'What am I doing?'{/i}",
+				"This is...Romantic~♥"
 			]
 		},
 		{
 			"lineTrigger": "HitWith",
 			"move": ["Deep Kiss", "Lovingly Rough Kiss", "Sensually Seductive Kiss", "Skillfully Passionate Kiss"],
 			"theText": [
-				"'Mmmm~ I...like this~.♥'",
-				"'Why am I getting so wet?'",
-				"'This kind of passion for me?, But what about my breasts or babymaker?'",
+				"Mmmm~ I...like this~.♥",
+				"Why am I getting so wet?",
+				"This kind of passion for me?, But what about my breasts or babymaker?",
 				"|f|CallCombatEventAndScene|/|FumikoCombatEvents|/|Hair Whip"
 			]
 		},
@@ -379,8 +379,8 @@
 			"lineTrigger": "HitWIth",
 			"move": "Distract",
 			"theText": [
-				"'Whaaa?!'",
-				"'Aahnn!'",
+				"Whaaa?!",
+				"Aahnn!",
 				"|f|CallCombatEventAndScene|/|FumikoCombatEvents|/|Hair Whip"
 			]
 		},
@@ -431,32 +431,32 @@
 			"lineTrigger": "StanceStruggleComment",
 			"move": ["Sex", "Breasts"],
 			"theText": [
-				"'Don't make me punish you!'"
+				"Don't make me punish you!"
 			]
 		},
 		{
 			"lineTrigger": "StanceStruggleFreeComment",
 			"move": ["Sex", "Breasts"],
 			"theText": [
-				"'Rrrrgh!'",
-				"'You FOOL!'"
+				"Rrrrgh!",
+				"You FOOL!"
 			]
 		},
 		{
 			"lineTrigger": "LowHealth",
 			"move": "",
 			"theText": [
-				"'H-How??'",
-				"'Why is my trap not working?!'",
-				"'I need to finish this'"
+				"H-How??",
+				"Why is my trap not working?!",
+				"I need to finish this"
 			]
 		},
 		{
 			"lineTrigger": "PlayerLowHealth",
 			"move": "",
 			"theText": [
-				"'Its okay, I'm ready, just plant your seeds in me~♥'",
-				"'I can't wait to just have sex forever and ever~♥'"
+				"Its okay, I'm ready, just plant your seeds in me~♥",
+				"I can't wait to just have sex forever and ever~♥"
 			]
 		},
 		{
