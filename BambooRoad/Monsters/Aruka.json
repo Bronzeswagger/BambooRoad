@@ -8,43 +8,43 @@
 	"tags": "none",
 	"generic": "False",
 	"requires": [""],
-	"skillList": ["Monkeying Around", "DextriousFootjob", "SloppyVaccumSuck", "PrimitiveTailjob", "MonkeyTailAssault", "MonkeyHandStrokes", "DextriousFootPump", "Drunken Monke", "Grease & Please", "PrimitiveFootStroke", "MischieviousTailStroke", "IntoxicatedAssault" ],
+	"skillList": ["Monkeying Around", "DextriousFootjob", "PrimitiveTailjob", "MonkeyTailAssault", "MonkeyHandStrokes", "DextriousFootPump", "Drunken Monke", "PrimitiveFootStroke", "MischieviousTailStroke", "IntoxicatedAssault" ],
 	"perks": ["AnalAdverse", "Tricky", "Unshackled", "Evasive"],
 	"stats": {
 		"lvl": "30",
-		"Exp": "600",
-		"max_hp": "500",
+		"Exp": "500",
+		"max_hp": "600",
 		"max_ep": "10",
 		"max_sp": "1",
-		"Power": "30",
-		"Technique": "10",
-		"Intelligence": "15",
-		"Allure": "15",
+		"Power": "15",
+		"Technique": "15",
+		"Intelligence": "25",
+		"Allure": "10",
 		"Willpower": "25",
 		"Luck": "30"
 	},
 	"Fetishes": [""],
 	"BodySensitivity": {
-		"Sex": "120",
+		"Sex": "100",
 		"Ass": "150",
-		"Breasts": "70",
-		"Mouth": "90",
+		"Breasts": "100",
+		"Mouth": "70",
 		"Seduction": "70",
 		"Magic": "100",
-		"Pain": "90",
-		"Holy": "100",
+		"Pain": "70",
+		"Holy": "150",
 		"Unholy": "100"
 
 	},
 	"resistancesStatusEffects": {
-		"Stun": "15",
-		"Charm": "30",
-		"Aphrodisiac": "15",
-		"Restraints": "30",
-		"Sleep": "15",
+		"Stun": "0",
+		"Charm": "50",
+		"Aphrodisiac": "0",
+		"Restraints": "50",
+		"Sleep": "0",
 		"Trance": "0",
 		"Paralysis": "0",
-		"Debuff": "30"
+		"Debuff": "0"
 	},
 	"moneyDropped": "500",
 	"ItemDropList": [{
@@ -152,7 +152,7 @@
 			"theText": [""]
 		},
 		{
-			"lineTrigger": "onOrgasm",
+			"lineTrigger": "OnOrgasm",
 			"move": "",
 			"theText": [""]
 		},

@@ -12,36 +12,36 @@
 	"perks": ["KissingAdverse", "Alluring", "Sadist", "Semen Frenzy", "Clingy"],
 	"stats": {
 		"lvl": "30",
-		"Exp": "600",
-		"max_hp": "500",
+		"Exp": "500",
+		"max_hp": "600",
 		"max_ep": "10",
 		"max_sp": "1",
 		"Power": "25",
 		"Technique": "15",
-		"Intelligence": "20",
+		"Intelligence": "15",
 		"Allure": "40",
-		"Willpower": "10",
-		"Luck": "15"
+		"Willpower": "15",
+		"Luck": "10"
 	},
 	"Fetishes": [""],
 	"BodySensitivity": {
-		"Sex": "90",
-		"Ass": "100",
+		"Sex": "150",
+		"Ass": "90",
 		"Breasts": "90",
 		"Mouth": "150",
 		"Seduction": "70",
 		"Magic": "70",
-		"Pain": "120",
+		"Pain": "150",
 		"Holy": "100",
-		"Unholy": "100"
+		"Unholy": "50"
 
 	},
 	"resistancesStatusEffects": {
 		"Stun": "-15",
-		"Charm": "25",
-		"Aphrodisiac": "50",
+		"Charm": "-15",
+		"Aphrodisiac": "30",
 		"Restraints": "15",
-		"Sleep": "25",
+		"Sleep": "0",
 		"Trance": "0",
 		"Paralysis": "0",
 		"Debuff": "15"
@@ -63,7 +63,7 @@
       "lineTrigger": "SetMusicTo",
       "move": "",
       "theText": [
-				"../../Mods/IzebelsMansion/Music/Fumiko_Battle_-_Rakshasa.mp3"
+				"../../Mods/IzebelsMansion/Music/Fumiko_Battle_-_Desperate_Struggle.mp3"
 			]
     },
 		{
@@ -167,7 +167,7 @@
 			"theText": [
 				"Ahh! My mind is going blank~♥",
 				"Ahn~!♥ Let's make lots of children~♥",
-				"Good boi~♥ Now lets lose ourselves in ecstasy~♥♥♥"
+				"Good boi~♥ Now lets lose ourselves~♥♥♥"
 			]
 		},
 		{

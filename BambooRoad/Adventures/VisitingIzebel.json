@@ -1,0 +1,59 @@
+{
+    "name": "Go to 'Izebel's Store'.",
+    "Description": "Go visit Izebel at her unusual store!",
+    "MusicList": [ "music/House_-_Green_Tea.mp3"],
+    "requires": [ "Sigil of Will-Power"],
+    "requiresEvent": [
+                        {
+                          "NameOfEvent": "Visiting Bamboo Road",
+                          "Progress": "-99",
+                          "ChoiceNumber": "1",
+                          "Choice": "Unlock Izebel's Shop"
+                        },
+                        {
+                          "NameOfEvent": "'Izebel's Shop'",
+                          "Progress": "-99",
+                          "ChoiceNumber": "18",
+                          "Choice": ""
+                        }
+                      ],
+    "Deck": [ "Event", "'Izebel's Store'"],
+    "RandomEvents": [ ""],
+    "RandomMonsters": [ "KunoichiTraineeBR", "TenguHarpyBR", "Ren Xiongmao", "LizardGirlBR"],
+    "MonsterGroups": [
+                  {
+                      "Group": [ "LizardGirlBR"]
+                  },
+                  {
+                    "Group": [ "Ren Xiongmao"]
+                  },
+                  {
+                    "Group": [ "TenguHarpyBR"]
+                  },
+                  {
+                    "Group": [ "KunoichiTraineeBR"]
+                  }
+                ],
+    "Treasure": [
+                {
+                    "Common": [ "Calming Potion", "Energy Potion", "Conscio Powder", "Sealing Talisman", "Perverted Talisman"]
+                },
+                {
+                    "Uncommon": [ "Conscio Powder", "Sealing Talisman", "Perverted Talisman", "Nature Rune", "Mini Elixir"]
+                },
+                {
+                    "Rare": [ "Nature Rune", "Elixir", "Silver Rune", "Enlightenment Rune", "Latex Black Gloves", "Bamboo Leaf", "Ring of Spirit"]
+                }
+              ],
+    "Eros": [
+                  {
+                      "Common": "400"
+                  },
+                  {
+                      "Uncommon": "650"
+                  },
+                  {
+                      "Rare": "800"
+                  }
+              ]
+}

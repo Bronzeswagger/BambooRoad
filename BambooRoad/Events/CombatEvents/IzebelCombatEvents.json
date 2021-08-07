@@ -17,22 +17,12 @@
                         "NameOfScene": "Dominatrix",
                         "theScene": [
                                        "ApplyStatusEffect", "Charm",
-                                       "Why fight? You can't resist my charms, wouldn't you rather have some adult fun?"]
+                                       "GivePerkToMonster", "Dominatrix",
+                                       "Why fight? You can't resist my charms."]
                   },
                   {
-                        "NameOfScene": "I'm Not Your Damn Saint",
-                        "theScene": [  "SetPostName", "- I'm Not Your Damn Saint",
-                                       "HitPlayerWith",
-                                       "Sensual Shocks",
-                                       "ApplyStatusEffect",
-                                       "%Power",
-                                       "{AttackerName} released several several shocks on {ThePlayerName} causing him to lose strength!",
-                                       "Speaks",
-                                       "'That kind of flattery goes nowhere with me.'"]
-                  },
-                  {
-                        "NameOfScene": "Pierced Breast Tease",
-                        "theScene": [  "SetPostName", " - Pierced Breast Tease",
+                        "NameOfScene": "Breast Tease",
+                        "theScene": [  "SetPostName", " - Breast Tease",
                                        "FocusedSpeaksSkill",
                                        "Izebel reveals her pierced tiddies, giving her plump pale chest an enticing shake.",
                                        "FocusedSpeaks",
@@ -50,13 +40,13 @@
                   {
                         "NameOfScene": "Fuck her tiddies!",
                         "theScene": [  "ApplyStance", "Titfuck",
-                                       "HitPlayerWith", "Seductive Titfuck",
+                                       "HitPlayerWith", "Seducing Titfuck",
                                        "Izebel smiles devilishly as she wraps her soft breasts around you, letting out a sigh of bliss as it massages your every inch."]
                   },
                   {
                         "NameOfScene": "CantResistBreasts",
                         "theScene": [  "ApplyStance", "Titfuck",
-                                       "HitPlayerWith", "Seductive Titfuck",
+                                       "HitPlayerWith", "Seducing Titfuck",
                                        "Without a second thought you rush forward to accept her seductive offer, your mind too focused on thoughts of her breasts and you sigh blissfully as it lovingly squeezes your throbbing length."]
                   },
                   {
@@ -78,8 +68,8 @@
                                        "CantResistBreasts"]
                   },
                   {
-                        "NameOfScene": "Sexual Promise",
-                        "theScene": [  "SetPostName", " - Sexual Promise",
+                        "NameOfScene": "Bamboo Service",
+                        "theScene": [  "SetPostName", " - Bamboo Service",
                                        "FocusedSpeaksSkill",
                                        "Izebel manages to catch {TargetName} and pin him to a corner long enough to take a good look at his throbbing erection.",
                                        "FocusedSpeaks",
@@ -97,13 +87,13 @@
                   {
                         "NameOfScene": "Let her service you!",
                         "theScene": [  "ApplyStance", "Blowjob",
-                                       "HitPlayerWith", "Seductive Blowjob",
+                                       "HitPlayerWith", "Seducing Blowjob",
                                        "Izebel smiles devilishly as she wraps her soft breasts around you, letting out a sigh of bliss as it massages your every inch."]
                   },
                   {
                         "NameOfScene": "CantResistOral",
                         "theScene": [  "ApplyStance", "Blowjob",
-                                       "HitPlayerWith", "Seductive Blowjob",
+                                       "HitPlayerWith", "Seducing Blowjob",
                                        "Without a second thought you accept her seductive offer as she begins to kiss your tip softly, peppering your cock before taking it in her mouth, making you moan in sweet ecstacy as her suctions begin to deeply arouse you."]
                   },
                   {

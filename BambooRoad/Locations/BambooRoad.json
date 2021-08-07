@@ -9,41 +9,41 @@
     "mapClouds": "",
     "mapCloudsXpos": "0",
     "mapCloudsYpos": "0",
-    "requires": ["Sigil Of Will-Power"],
-    "FullyUnlockedBy": [""],
-    "MinimumDeckSize": "7",
-    "MaximumMonsterDeck": "5",
-    "MaximumEventDeck": "3",
-    "Monsters": ["DarkKunoichi", "Tengu", "TenguHarpyBR", "Ren Xiongmao", "Kasa-Obake", "Bunyip"],
+    "requires": ["Sigil of Will-Power"],
+    "FullyUnlockedBy": ["Bronzeswagger's Password"],
+    "MinimumDeckSize": "8",
+    "MaximumMonsterDeck": "6",
+    "MaximumEventDeck": "4",
+    "Monsters": ["KunoichiTraineeBR", "TenguHarpyBR", "Ren Xiongmao", "LizardGirlBR"],
     "MonsterGroups": [
                   {
-                      "Group": ["DarkKunoichi"]
+                      "Group": ["KunoichiTraineeBR"]
                   },
                   {
-                      "Group": ["DarkKunoichi", "DarkKunoichi"]
+                      "Group": ["KunoichiTraineeBR", "KunoichiTraineeBR"]
                   },
                   {
-                      "Group": ["Kasa-Obake"]
+                      "Group": ["KunoichiTraineeBR", "TenguHarpyBR"]
                   },
                   {
-                      "Group": ["TenguHarpyBR"]
+                      "Group": ["TenguHarpyBR", "TenguHarpyBR" ]
                   },
                   {
-                      "Group": ["Tengu"]
+                      "Group": ["KunoichiTraineeBR", "TenguHarpyBR", "KunoichiTraineeBR"]
                   },
                   {
-                      "Group": ["Bunyip"]
+                      "Group": ["LizardGirlBR"]
+                  },
+                  {
+                      "Group": ["LizardGirlBR", "LizardGirlBR"]
                   },
                   {
                       "Group": ["Ren Xiongmao"]
-                  },
-                  {
-                      "Group": ["Ren Xiongmao", "Ren Xiongmao"]
                   }
                 ],
-    "Events": ["Aruka the Jokester", "Fumiko's Trap", "Bamboo Cemetary"],
-    "Quests": ["Stop the Jokester", "Find Bamboo Leaves", "Jiangshi Trouble"],
-    "Adventures": ["Visit Izebel"],
+    "Events": ["Aruka's Prank", "Fumiko's Trap", "Mimics", "Lust Rune", "Aruka the Jokester", "Ninja Rest Ambush", "Xiongmao Rescue"],
+    "Quests": ["Stop the Jokester", "Find Bamboo Leaves", "Requested Locket of Hair", "Silk for Izebel"],
+    "Adventures": ["VisitingIzebel"],
     "Treasure": [
                 {
                     "Common": ["Calming Potion", "Energy Potion", "Conscio Powder", "Sealing Talisman", "Perverted Talisman"]
@@ -52,7 +52,7 @@
                     "Uncommon": ["Conscio Powder", "Sealing Talisman", "Perverted Talisman", "Nature Rune", "Mini Elixir"]
                 },
                 {
-                    "Rare": ["Nature Rune", "Elixir", "Silver Rune", "Enlightenment Rune", "Sinister Black Gloves", "Bamboo Leaf", "Ring of Spirit"]
+                    "Rare": ["Nature Rune", "Elixir", "Silver Rune", "Enlightenment Rune", "Latex Black Gloves", "Bamboo Leaf", "Ring of Spirit"]
                 }
               ],
     "Eros": [
@@ -63,8 +63,8 @@
                     "Uncommon": "650"
                 },
                 {
-                    "Rare": "900"
+                    "Rare": "800"
                 }
               ],
-    "picture": "../Mods/IzebelsMansion/Images/bambooroad.jpg"
+    "picture": "../Mods/BambooRoad/Images/bambooroad.jpg"
 }

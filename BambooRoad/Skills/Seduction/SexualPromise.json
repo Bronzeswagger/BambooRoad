@@ -1,5 +1,5 @@
 {
-    "name": "Sexual Promise",
+    "name": "Bamboo Service",
     "cost": "0",
     "costType": "ep",
     "requiredLevel": "0",
@@ -32,7 +32,7 @@
     "descrip": "",
     "outcome": "",
     "miss": "",
-    "statusOutcome": "|f|CallCombatEventAndScene|/|IzebelCombatEvents|/|Sexual Promise",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|IzebelCombatEvents|/|Bamboo Service",
     "statusMiss": "",
     "restraintStruggle": "",
     "restraintStruggleCharmed": "",
