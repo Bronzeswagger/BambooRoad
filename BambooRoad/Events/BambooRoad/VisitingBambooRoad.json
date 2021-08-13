@@ -1,0 +1,54 @@
+{
+    "name": "'VisitingBambooRoad'",
+    "CardType": "Quest",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "AdultPanda",
+                    "postName": "",
+                    "SpeakerType": ""
+                  },
+                  {
+                    "name": "Izebel",
+                    "postName": "",
+                    "SpeakerType": ""
+                  }
+                ],
+    "EventText": [
+      {
+                              "NameOfScene": "Introduction",
+                              "theScene": [  "AllowInventory",
+                                              "IfChoice", "2", "JumpToScene", "IntroductionDone",
+                                              "SetChoice", "1", "",
+                                              "SetProgress", "0",
+                                              "ChangeBGM", "BambooRoad/Music/Bamboo_Road_-_Yuugennnoma.mp3",
+                                              "ChangeBG", "bambooroad.jpg",
+                                              "You find yourself in a new area off the beaten path near the mountains, the surrounding forest much different than the Mystic Forest as the trees are made of what seems like bamboo. You follow the path wary of any monsters about, but fortunately don't come across any.",
+                                              "ChangeBG", "oldhouseonbamboohill.jpg",
+                                              "Eventually you come to the end of the path and find a remote village deep within the forest, most of the settlers look poorly and keep their distance from you, however you accidently bump into one of the residents.",
+                                              "DisplayCharacters", "2",
+                                              "You noticed it was a most beautiful woman japanese style form of dress, she also looked as she was half bear as her most distinguishing features were arms and legs, and the noticeable patch of fur on her chest, which happened to be very revealing. You stare at her figure until you catch her eyes glaring at you.",
+                                              "Speaks1", "Excuse you, do you just casually walk into people and then gawk at them?",
+                                              "She looks you over and her tension eases over.",
+                                              "Speaks1", "You're actually new around here are you? Not many dare to come this way due to the monsters lurking over Bamboo Road.",
+                                              "She smiles",
+                                              "Speaks1", "My name is Izebel, yours?",
+                                              "You tell her your name.",
+                                              "Speaks2", "I see, well since you're new here, I'll give you some advice, this village doesn't have a lot to offer, but you can find my store up the street here, you can't miss it.",
+                                              "Speaks2", "I sell wares you can't find anywhere else, might do you some good to stop by",
+                                              "She turns away from the viewer as to leave, but then turns her head to you",
+                                              "Speaks2", "I also like how you look, most other adventurers look like wimps, so...I might have a proposition for you if you stop by~",
+                                              "She walks away with her umbrella in hand and her ass almost alluring you to follow",
+                                              "DisplayCharacters", "2", "EndLoop",
+                                              "You look around more through the village and consider your options, but it seems most other folk prefer to keep to their ownselves, so, since Izebel was the only one that was social, you decide to take upon her offer and follow her to her store.",
+                                              "EndLoop"
+                                            ]
+                                          },
+      {                      "NameOfScene": "IntroductionDone",
+                             "theScene": [  "JumpToEvent", "IzebelsShop"
+                                            ]
+                                          }
+                ]
+}

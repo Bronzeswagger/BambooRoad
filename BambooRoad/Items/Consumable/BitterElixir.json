@@ -1,0 +1,63 @@
+{
+    "name": "Bitter Elixir",
+    "itemType": "Consumable",
+    "cost": "800",
+    "requires": [ ""],
+    "requiresEvent": [
+                        {
+                          "NameOfEvent": "",
+                          "Progress": "-99",
+                          "ChoiceNumber": "-1",
+                          "Choice": ""
+                        }
+                      ],
+    "descrip": "A potion made from bitter leaves, bamboo, and other healing properties, its cheaper than normal elixirs and has more healing, but also has strange side effects.",
+    "perks": [ ""],
+    "skills": ["UsableItem"],
+
+    "hp": "250",
+    "ep": "100",
+    "sp": "0",
+
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "0",
+
+    "statusEffect": "",
+    "statusChance": "0",
+    "statusPotency": "0",
+
+    "BodySensitivity": { "Sex": "0",
+              "Ass": "0",
+              "Breasts": "0",
+              "Mouth": "0",
+              "Seduction": "0",
+              "Magic": "0",
+              "Pain": "0",
+              "Holy": "0",
+              "Unholy": "0"
+    },
+
+    "resistancesStatusEffects": {
+              "Stun": "0",
+              "Charm": "0",
+              "Aphrodisiac": "0",
+              "Restraints": "0",
+              "Sleep": "0",
+              "Trance": "0",
+              "Paralysis": "0",
+              "Debuff": "0"
+    },
+
+
+    "useOutcome": "|f|GivePerkQuietly|/|BitterElixirStatus|n|You drink the bitter potion and feel your arousal sated, but you can't help to feel your senses begin to heighten.",
+    "useMiss": "",
+
+    "onEquip": "",
+    "onUnequip": ""
+
+}

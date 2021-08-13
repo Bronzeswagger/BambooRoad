@@ -373,24 +373,156 @@
 "picture": ""
 }
 ],
-  "pictures": [
-{
-"Name": "Base",
-"StartOn": "1",
-"AlwaysOn": "1",
-"IsScene": "0",
-"TheBody": "1",
-"Overlay": "No",
-"setXalign": "0.0",
-"setYalign": "0.0",
-"Images": [
-{
-"Name": "Base",
-"File": "../Mods/IzebelsMansion/Images/Monsters/Izebel/izebeldummy.jpg",
-"setXalign": "0.0",
-"setYalign": "0.0"
-}
-]
-}
-]
+"pictures": [
+                    {
+                        "Name": "Base",
+                        "StartOn": "1",
+                        "AlwaysOn": "1",
+                        "IsScene": "0",
+                        "TheBody": "1",
+                        "Overlay": "No",
+                        "setXalign": "0",
+                        "setYalign": "0",
+                        "Images": [
+                          {
+                              "Name": "Base",
+                              "File": "char_izebel_lower_c_armnorm.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          },
+                          {
+                              "Name": "Hair",
+                              "File": "char_izebel_upper.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          },
+                          {
+                              "Name": "BaseFace",
+                              "File": "char_izebel_f01_base.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          }
+                      ]
+                    },
+                    {
+                        "Name": "BodyExtra",
+                        "StartOn": "1",
+                        "AlwaysOn": "1",
+                        "IsScene": "0",
+                        "TheBody": "0",
+                        "Overlay": "No",
+                        "setXalign": "0.0",
+                        "setYalign": "0.0",
+                        "Images": [
+                          {
+                              "Name": "Nude1",
+                              "File": "char_izebel_lower_n_armnorm.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          },
+                          {
+                              "Name": "Brella",
+                              "File": "char_izebel_lower_c_armumb.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          },
+                          {
+                              "Name": "Nude2",
+                              "File": "char_izebel_lower_n_armumb.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          }
+                      ]
+                    },
+                    {
+                        "Name": "Expression",
+                        "StartOn": "1",
+                        "AlwaysOn": "1",
+                        "IsScene": "0",
+                        "TheBody": "0",
+                        "Overlay": "No",
+                        "setXalign": "0.0",
+                        "setYalign": "0.0",
+                        "Images": [
+                          {
+                              "Name": "Blush",
+                              "File": "char_izebel_f_blush.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          },
+                          {
+                              "Name": "Amusing",
+                              "File": "char_izebel_f02_amusing.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          },
+                          {
+                              "Name": "Laugh",
+                              "File": "char_izebel_f03_laugh.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          },
+                          {
+                              "Name": "Annoyed",
+                              "File": "char_izebel_f04_annoyed.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          },
+                          {
+                              "Name": "Smug",
+                              "File": "char_izebel_f05_smug.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          },
+                          {
+                              "Name": "Sleep",
+                              "File": "char_izebel_f06_sleep.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          },
+                          {
+                              "Name": "Lewd",
+                              "File": "char_izebel_f07_lewd.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          },
+                          {
+                              "Name": "Orgasm",
+                              "File": "char_izebel_f08_orgasm.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          },
+                          {
+                              "Name": "Flustered",
+                              "File": "char_izebel_f09_flustered.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          },
+                          {
+                              "Name": "Glare",
+                              "File": "char_izebel_f10_glare.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          },
+                          {
+                              "Name": "Angry",
+                              "File": "char_izebel_f11_angry.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          },
+                          {
+                              "Name": "Caring",
+                              "File": "char_izebel_f12_caring.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          },
+                          {
+                              "Name": "Cultured",
+                              "File": "char_izebel_f13_ofculture.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                          }
+                      ]
+                    }
+                  ]
 }

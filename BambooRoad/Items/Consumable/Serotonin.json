@@ -1,0 +1,63 @@
+{
+    "name": "Serotonin",
+    "itemType": "NotCombatConsumable",
+    "cost": "5000",
+    "requires": [ ""],
+    "requiresEvent": [
+                        {
+                          "NameOfEvent": "",
+                          "Progress": "-99",
+                          "ChoiceNumber": "-1",
+                          "Choice": ""
+                        }
+                      ],
+    "descrip": "A drug in the shape and color of a green and yellow pill. Taking at least once a day increases your mood, feelings of well-being, and your happiness. It also helps your sleeping, eating, and digestion",
+    "perks": [ ""],
+    "skills": ["UsableItem"],
+
+    "hp": "0",
+    "ep": "0",
+    "sp": "0",
+
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "0",
+
+    "statusEffect": "",
+    "statusChance": "0",
+    "statusPotency": "0",
+
+    "BodySensitivity": { "Sex": "0",
+              "Ass": "0",
+              "Breasts": "0",
+              "Mouth": "0",
+              "Seduction": "0",
+              "Magic": "0",
+              "Pain": "0",
+              "Holy": "0",
+              "Unholy": "0"
+    },
+
+    "resistancesStatusEffects": {
+              "Stun": "0",
+              "Charm": "0",
+              "Aphrodisiac": "0",
+              "Restraints": "0",
+              "Sleep": "0",
+              "Trance": "0",
+              "Paralysis": "0",
+              "Debuff": "0"
+    },
+
+
+    "useOutcome": "|f|GivePerkQuietly|/|SerotoninBoost|n|You take the drug and feel your mood lifted and very happy, you also feel like eating at the bar in town or having a night out with a girl and getting lucky sometime soon.",
+    "useMiss": "",
+
+    "onEquip": "",
+    "onUnequip": ""
+
+}

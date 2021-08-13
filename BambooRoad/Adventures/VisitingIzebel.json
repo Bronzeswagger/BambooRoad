@@ -1,19 +1,19 @@
 {
-    "name": "Go to 'Izebel's Store'.",
+    "name": "Go to Izebel's Store.",
     "Description": "Go visit Izebel at her unusual store!",
     "MusicList": [ "music/House_-_Green_Tea.mp3"],
     "requires": [ "Sigil of Will-Power"],
     "requiresEvent": [
                         {
-                          "NameOfEvent": "Visiting Bamboo Road",
+                          "NameOfEvent": "VisitingBambooRoad",
                           "Progress": "-99",
                           "ChoiceNumber": "1",
                           "Choice": "Unlock Izebel's Shop"
                         },
                         {
-                          "NameOfEvent": "'Izebel's Shop'",
+                          "NameOfEvent": "IzebelsShop",
                           "Progress": "-99",
-                          "ChoiceNumber": "18",
+                          "ChoiceNumber": "2",
                           "Choice": ""
                         }
                       ],
@@ -42,7 +42,7 @@
                     "Uncommon": [ "Conscio Powder", "Sealing Talisman", "Perverted Talisman", "Nature Rune", "Mini Elixir"]
                 },
                 {
-                    "Rare": [ "Nature Rune", "Elixir", "Silver Rune", "Enlightenment Rune", "Latex Black Gloves", "Bamboo Leaf", "Ring of Spirit"]
+                    "Rare": [ "Nature Rune", "Elixir", "Silver Rune", "Enlightenment Rune", "Bamboo Leaf", "Ring of Spirit"]
                 }
               ],
     "Eros": [

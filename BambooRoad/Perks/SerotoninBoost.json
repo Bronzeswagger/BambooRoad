@@ -1,0 +1,14 @@
+{
+    "name": "SerotoninBoost",
+    "description": "You took a Serotonin Pill! You feel incredibly happy and lucky! If you partake in sexual activities, make sure your heart is healthy enough for sex!",
+
+    "LevelReq": "0",
+    "PerkReq": [ ""],
+    "StatReq": [ ""],
+    "StatReqAmount": [ "0"],
+
+    "PerkType": [ "TimeDuration", "Luck", "VirilityBoost", "InitiativeBonus" ],
+    "EffectPower": [ "6", "15", "50", "10" ],
+
+    "PlayerCanPurchase": "No"
+}

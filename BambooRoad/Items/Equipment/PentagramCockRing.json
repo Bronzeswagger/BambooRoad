@@ -1,0 +1,49 @@
+{
+    "name": "Pentagram Cock Ring",
+    "itemType": "Accessory",
+    "cost": "2000",
+    "descrip": "There's no telling what Izebel used to make this, but it grants the power of health and energy regen, at the cost of increasing your sensitivities by 50%.",
+    "requires": [ ""],
+    "perks": [ ""],
+
+    "hp": "0",
+    "ep": "0",
+    "sp": "0",
+
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "0",
+
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+
+    "BodySensitivity": { "Sex": "50",
+              "Ass": "50",
+              "Breasts": "50",
+              "Mouth": "50",
+              "Seduction": "50",
+              "Magic": "50",
+              "Pain": "50",
+              "Holy": "50",
+              "Unholy": "50"
+    },
+
+    "resistancesStatusEffects": {
+              "Stun": "0",
+              "Charm": "0",
+              "Aphrodisiac": "0",
+              "Restraints": "0",
+              "Sleep": "0",
+              "Trance": "0",
+              "Paralysis": "0"
+    },
+
+    "useOutcome": "|f|GivePerkQuietly|/|PentagramRegen|n|",
+    "useMiss": ""
+
+}

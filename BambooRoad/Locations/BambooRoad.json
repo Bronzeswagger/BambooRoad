@@ -10,7 +10,7 @@
     "mapCloudsXpos": "0",
     "mapCloudsYpos": "0",
     "requires": ["Sigil of Will-Power"],
-    "FullyUnlockedBy": ["Bronzeswagger's Password"],
+    "FullyUnlockedBy": ["GetLegHumpedByBronzeswagger"],
     "MinimumDeckSize": "8",
     "MaximumMonsterDeck": "6",
     "MaximumEventDeck": "4",
@@ -52,7 +52,7 @@
                     "Uncommon": ["Conscio Powder", "Sealing Talisman", "Perverted Talisman", "Nature Rune", "Mini Elixir"]
                 },
                 {
-                    "Rare": ["Nature Rune", "Elixir", "Silver Rune", "Enlightenment Rune", "Latex Black Gloves", "Bamboo Leaf", "Ring of Spirit"]
+                    "Rare": ["Nature Rune", "Elixir", "Silver Rune", "Enlightenment Rune", "Bamboo Leaf", "Ring of Spirit"]
                 }
               ],
     "Eros": [

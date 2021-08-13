@@ -1,0 +1,14 @@
+{
+    "name": "BitterPanaceaStatus",
+    "description": "You used the Bitter Panacea! You feel your status effects melt away, but you begin to feel tired for a limited time.",
+
+    "LevelReq": "0",
+    "PerkReq": [ ""],
+    "StatReq": [ ""],
+    "StatReqAmount": [ "0"],
+
+    "PerkType": [ "TurnDuration", ""RegenMaxEnergy", "Power", "Willpower"],
+    "EffectPower": [ "3", "-25", "-5", -"10"],
+
+    "PlayerCanPurchase": "No"
+}

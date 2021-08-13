@@ -1,0 +1,49 @@
+{
+    "name": "Enter 'Xiongmao Parlor'",
+    "CardType": "Shopping",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "Izebel",
+                    "postName": "",
+                    "SpeakerType": ""
+                  }
+                ],
+    "EventText": [
+                    {
+                  "NameOfScene": "Xiongmao Parlor",
+                  "theScene": [ "AllowInventory",
+                                "ChangeBGM", "BambooRoad/Music/House_-_Green_Tea.mp3",
+                                "ChangeBG", "oldhouseonbamboohill.jpg",
+                                "As you walk along the road of the village, you find Izebel's Shop.",
+                                "As you approached its doors, there was a large billboard over the building that said 'The Xiangmao Parlor'.",
+                                "ChangeBGM", "BambooRoad/Music/Unusual_Shop.mp3",
+                                "ChangeBG", "izebelshouse.jpg",
+                                "DisplayCharacter", "1",
+                                "As you enter in, a villager with a huge smile on his face is saying his goodbyes to none other than the shop owner, Izebel. She then sees you and smiles.",
+                                "Speaks1", "Glad to see you dear, anything I could help you with?",
+                                "JumptoScene", "IzebelsMenu"
+                            ]
+              },
+                    {
+                  "NameOfScene": "IzebelsMenu",
+                  "theScene": [ "Menu",
+                                "Shop.",
+                                "Leave.",
+                                "EndLoop"
+                            ]
+              },
+                    {
+                  "NameOfScene": "Shop",
+                  "theScene": [ "ShoppingMenu",
+                                "Bitter Elixir", "Bitter Panacea", "Bamboo Salve", "Green Ambrosia Tea", "Serotonin",
+                                "Rune of Elegance", "Panda Rune", "Grizzly Rune", "Bamboo Rune",
+                                "Pentagram Cock Ring", "Panda Charm", "Stylish Umbrella",
+                                "EndLoop",
+                                "JumptoScene", "IzebelsMenu"
+                            ]
+              }
+            ]
+}

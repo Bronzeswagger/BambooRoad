@@ -1,0 +1,14 @@
+{
+    "name": "BitterElixirStatus",
+    "description": "You used the Bitter Elixir! You feel your arousal sated, but your sensitivity has increased for a limited time.",
+
+    "LevelReq": "0",
+    "PerkReq": [ ""],
+    "StatReq": [ ""],
+    "StatReqAmount": [ "0"],
+
+    "PerkType": [ "TurnDuration", "SexSensitivity", "AssSensitivity", "BreastsSensitivity", "MouthSensitivity", "SeductionSensitivity", "MagicSensitivity", "PainSensitivity", "HolySensitivity", "UnholySensitivity"],
+    "EffectPower": [ "3", "10", "10", "10", "10", "10", "10", "10", "20", "20"],
+
+    "PlayerCanPurchase": "No"
+}

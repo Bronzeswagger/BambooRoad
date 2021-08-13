@@ -1,0 +1,14 @@
+{
+    "name": "PentagramRegen",
+    "description": "Holding the Pentagram Cock Ring increases your Sensitivites by 50%, but gives the power of regen.",
+
+    "LevelReq": "0",
+    "PerkReq": [ ""],
+    "StatReq": [ ""],
+    "StatReqAmount": [ "0"],
+
+    "PerkType": [ "RegenMaxArousal", "RegenMaxEnergy"],
+    "EffectPower": [ "50", "50" ],
+
+    "PlayerCanPurchase": "No"
+}
