@@ -23,15 +23,15 @@
               "Luck": "15"
     },
     "Fetishes": [ ""],
-    "BodySensitivity": { "Sex": "100",
-              "Ass": "80",
-              "Breasts": "100",
-              "Mouth": "100",
+    "BodySensitivity": { "Sex": "115",
+              "Ass": "95",
+              "Breasts": "95",
+              "Mouth": "95",
               "Seduction": "70",
-              "Magic": "90",
-              "Pain": "110",
+              "Magic": "100",
+              "Pain": "100",
               "Holy": "50",
-              "Unholy": "130"
+              "Unholy": "100"
     },
     "resistancesStatusEffects": {
               "Stun": "15",
@@ -80,9 +80,20 @@
                         },
                         {
                             "lineTrigger": "HitWith",
+                            "move": "Penetrate",
+                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Lewd|n|Going for the main course are we?♥",
+                                         "|f|ChangeImageLayer|/|Expressions|/|Caring|n|Mmmmm..I hope you're ready to breed me♥"]
+                        },
+                        {
+                            "lineTrigger": "HitWith",
+                            "move": "AnalPenetration",
+                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Flustered|n|Ah-aaaaah?!♥"]
+                        },
+                        {
+                            "lineTrigger": "HitWith",
                             "move": "Pin",
                             "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Caring|n|Mmm....naughty, I like it",
-                                         "|f|ChangeImageLayer|/|Expressions|/|Lewd|n|Gooood boy, breed me like the animals we are~♥"]
+                                         "|f|ChangeImageLayer|/|Expressions|/|Lewd|n|Gooood boy, breed me like the animals we are♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
@@ -114,8 +125,8 @@
                         {
                             "lineTrigger": "HitWith",
                             "move": "Kiss",
-                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Caring|n|Mmm...♥ I'll kiss you as much as you want~♥",
-                                         "|f|ChangeImageLayer|/|Expressions|/|Caring|n|You can be more intimate than that~♥"]
+                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Caring|n|Mmm...♥ I'll kiss you as much as you want♥",
+                                         "|f|ChangeImageLayer|/|Expressions|/|Caring|n|You can be more intimate than that♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
@@ -127,29 +138,29 @@
                             "lineTrigger": "HitWith",
                             "move": "Make Out",
                             "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Lewd|n|Mmm, there's nothing like a kiss to ignite our passions",
-                                         "|f|ChangeImageLayer|/|Expressions|/|Caring|n|You can be more intimate than that~♥"]
+                                         "|f|ChangeImageLayer|/|Expressions|/|Caring|n|You can be more intimate than that♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Tit Fucking"],
-                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Cultured|n|I'm going to use my breasts to your heart's content, and my tongue to serve you~♥"]
+                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Cultured|n|I'm going to use my breasts to your heart's content, and my tongue to serve you♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Breast Caress",
-                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Caring|n|Why not grab a handful them while I take control?~♥",
-                                         "|f|ChangeImageLayer|/|Expressions|/|Caring|n|Mmmmm, caress my pillows as much as you want~♥"]
+                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Caring|n|Why not grab a handful them while I take control?♥",
+                                         "|f|ChangeImageLayer|/|Expressions|/|Caring|n|Mmmmm, caress my pillows as much as you want♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Breast Knead", "Breast Massage", "Breast Fondle"],
-                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Caring|n|Want me to do something special? Just for you?~♥"]
+                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Caring|n|Want me to do something special? Just for you?♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Suckle",
-                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Caring|n|Looks like this toy is thirsty, let me give you a treat~♥",
-                                         "|f|ChangeImageLayer|/|Expressions|/|Caring|n|Let me help with your desires, you look awful lonely~♥"]
+                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Caring|n|Looks like this toy is thirsty, let me give you a treat♥",
+                                         "|f|ChangeImageLayer|/|Expressions|/|Caring|n|Let me help with your desires, you look awful lonely♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
@@ -159,13 +170,18 @@
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Grope Ass", "Squeeze Ass", "Massage Ass", "Fondle Ass"],
-                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Caring|n|Squeeze my ass much as you want darling. But don't get carried away~♥"]
+                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Caring|n|Squeeze my ass much as you want darling. But don't get carried away♥"]
+                        },
+                        {
+                            "lineTrigger": "HitWith",
+                            "move": "AnalPiston",
+                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Lewd|n|{i}God, I'm not used to this, its too good♥{/i}"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Arouse", "Arousara", "Arousero"],
-                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Lewd|n|Don't get me too excited, you might regret it~♥",
-                                         "|f|ChangeImageLayer|/|Expressions|/|Lewd|n|Mmm, someone's trying to be on my naughty list~♥"]
+                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Lewd|n|Don't get me too excited, you might regret it♥",
+                                         "|f|ChangeImageLayer|/|Expressions|/|Lewd|n|Mmm, someone's trying to be on my naughty list♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
@@ -211,12 +227,12 @@
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Pound", "Thrust"],
-                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Smug|n|MMmmm...fuck me senseless you stud~♥"]
+                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Smug|n|MMmmm...fuck me senseless you stud♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Multi Thrust", "Channeling Thrust", "Carrying Fuck"],
-                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Lewd|n|{i}Ahh!♥ Yes!♥ Make me yours!{i}♥",
+                            "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Lewd|n|{i}Ahh!♥ Yes!♥ Make me yours!♥{i}",
                                          "|f|ChangeImageLayer|/|Expressions|/|Lewd|n|Aaaah!♥"]
                         },
                         {
@@ -228,13 +244,13 @@
                             "lineTrigger": "HitWith",
                             "move": ["Tantric Thrust", "Passionate Lovemaking"],
                             "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Orgasm|n|{i}Mmmm....fucking stud is making a whore out of me!♥♥♥{/i}",
-                                         "|f|ChangeImageLayer|/|Expressions|/|Orgasm|n|{i}Ahhhh...Ahhhh, You're driving me wild! M-My mind's going blank{/i}...♥♥♥"]
+                                         "|f|ChangeImageLayer|/|Expressions|/|Orgasm|n|{i}Ahhhh...Ahhhh, You're driving me wild! M-My mind's going blank!♥♥♥{/i}"]
                         },
                         {
                             "lineTrigger": "UsesMove",
                             "move": ["Bamboo Ride", "Wild Ride", "Rough Ride"],
                             "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Lewd|n|Ahha...I don't plan to hold back. I want it all♥",
-                                         "|f|ChangeImageLayer|/|Expressions|/|Lewd|n|My heart is already racing~♥"]
+                                         "|f|ChangeImageLayer|/|Expressions|/|Lewd|n|My heart is already racing♥"]
                         },
                         {
                              "lineTrigger": "UsesMove",
