@@ -1,5 +1,5 @@
 {
-    "name": "PinnedThighjob",
+    "name": "Panda Thighjob",
     "cost": "0",
     "costType": "ep",
     "requiredLevel": "0",
@@ -11,7 +11,7 @@
     "fetishTags": [ "Legs"],
     "startsStance": "Thighjob",
     "requiresStance": "Any",
-    "unusableIfStance": [ ""],
+    "unusableIfStance": [ "Sex", "Anal", "Blowjob", "Titfuck", "Footjob", "Tailjob"],
     "requiresTargetStance": [ "Any"],
     "unusableIfTarget": [ "Sex", "Anal", "Blowjob", "Titfuck", "Footjob", "Tailjob"],
     "removesStance": "None",

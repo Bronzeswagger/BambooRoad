@@ -17,6 +17,7 @@
                         "NameOfScene": "StartWithDominatrix",
                         "theScene": [  "ApplyStatusEffect", "Charm",
                                        "GivePerkToMonster", "Dominatrix",
+                                       "FocusedSpeaks",
                                        "I'll make sure you can't resist my charms."]
                   },
                   {
