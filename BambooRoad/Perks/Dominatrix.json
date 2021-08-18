@@ -8,7 +8,7 @@
     "StatReqAmount": [ "0"],
 
     "PerkType": [ "StatusIcon", "TurnDuration", "DamageReduction", "StanceBoost", "SeductionBoost", "Allure"],
-    "EffectPower": [ "../Mods/IzebelsMansion/Images/Dominatrix.png", "4", "10", "5", "5", "10"],
+    "EffectPower": [ "../Mods/BambooRoad/Images/Dominatrix.png", "4", "10", "5", "5", "10"],
 
     "PlayerCanPurchase": "No"
 }

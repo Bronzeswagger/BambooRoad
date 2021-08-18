@@ -12,8 +12,8 @@
     "perks": ["Dominatrix", "Alluring", "Sensual Pace", "Unbounded", "Ecstatic Strike", "Anal Adverse", "Restraining Expert"],
     "stats": { "lvl": "40",
               "Exp": "500",
-              "max_hp": "930",
-              "max_ep": "200",
+              "max_hp": "1200",
+              "max_ep": "300",
               "max_sp": "1",
               "Power": "40",
               "Technique": "20",
@@ -70,7 +70,7 @@
                         {
                             "lineTrigger": "StartOfCombat",
                             "move": "",
-                            "theText" : ["|f|CallCombatEventAndScene|/|IzebelCombatEvents|/|Dominatrix|n|"]
+                            "theText" : ["|f|CallCombatEventAndScene|/|IzebelCombatEvents|/|StartWithDominatrix|n|"]
                         },
                         {
                             "lineTrigger": "HitWith",
@@ -255,8 +255,8 @@
                         {
                              "lineTrigger": "UsesMove",
                              "move": "Dominatrix Charm",
-                             "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Smug|n|Admit it, you can't resist♥|f|CallCombatEventAndScene|/|IzebelCombatEvents|/|Dominatrix|n|",
-                                          "|f|ChangeImageLayer|/|Expressions|/|Smug|n|You like what you see...boy?♥|f|CallCombatEventAndScene|/|IzebelCombatEvents|/|Dominatrix|n|"]
+                             "theText": [ "|f|ChangeImageLayer|/|Expressions|/|Smug|n|Admit it, you can't resist♥|f|CallCombatEventAndScene|/|IzebelCombatEvents|/|Dominatrix Charm|n|",
+                                          "|f|ChangeImageLayer|/|Expressions|/|Smug|n|You like what you see...boy?♥|f|CallCombatEventAndScene|/|IzebelCombatEvents|/|Dominatrix Charm|n|"]
                         },
                         {
                              "lineTrigger": "UsesMove",

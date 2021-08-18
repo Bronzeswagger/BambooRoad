@@ -14,11 +14,17 @@
 "EventText": [
 
                   {
-                        "NameOfScene": "Dominatrix",
+                        "NameOfScene": "StartWithDominatrix",
                         "theScene": [
                                        "ApplyStatusEffect", "Charm",
                                        "GivePerkToMonster", "Dominatrix",
                                        "I'll make sure you can't resist my charms."]
+                  },
+                  {
+                        "NameOfScene": "Dominatrix Charm",
+                        "theScene": [
+                                       "ApplyStatusEffect", "Charm",
+                                       "GivePerkToMonster", "Dominatrix"]
                   },
                   {
                         "NameOfScene": "PandaThighSqueeze",
@@ -203,8 +209,7 @@
                   },
                   {
                         "NameOfScene": "IgnoredKisses",
-                        "theScene": [ "ChangeImageLayer", "Expression", "1", "Annoyed",
-												              "Izebel becomes slighlty annoyed that her charms didn't work."]
+                        "theScene": [ "|f|ChangeImageLayer|/|Expressions|/|Annoyed|n|Izebel becomes slighlty annoyed that her charms didn't work."]
                   },
                   {
                         "NameOfScene": "Ignore her offer!",
