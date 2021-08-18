@@ -1,6 +1,6 @@
 {
     "name": "Dominatrix",
-    "description": "The devil of sexual prowess Izebel. Not only does her damage she recieves decrease, but she also has her seductions, stances, and personal indulgences boosted for a limited time.",
+    "description": "The devilish panda of sexual prowess Izebel. Not only does her damage she recieves decrease, but she also has her seductions, stances, and her Allure stat boosted for a limited time.",
 
     "LevelReq": "0",
     "PerkReq": [ ""],
@@ -8,7 +8,7 @@
     "StatReqAmount": [ "0"],
 
     "PerkType": [ "StatusIcon", "TurnDuration", "DamageReduction", "StanceBoost", "SeductionBoost", "Allure"],
-    "EffectPower": [ "../Mods/BambooRoad/Images/Dominatrix.png", "4", "10", "5", "5", "10"],
+    "EffectPower": [ "../Mods/BambooRoad/Images/Dominatrix.png", "7", "10", "5", "5", "10"],
 
     "PlayerCanPurchase": "No"
 }
