@@ -15,16 +15,13 @@
 
                   {
                         "NameOfScene": "StartWithDominatrix",
-                        "theScene": [
-                                       "ApplyStatusEffect", "Charm",
+                        "theScene": [  "ApplyStatusEffect", "Charm",
                                        "GivePerkToMonster", "Dominatrix",
                                        "I'll make sure you can't resist my charms."]
                   },
                   {
                         "NameOfScene": "Dominatrix Charm",
-                        "theScene": [
-                                       "ApplyStatusEffect", "Charm",
-                                       "GivePerkToMonster", "Dominatrix"]
+                        "theScene": [  "GivePerkToMonster", "Dominatrix"]
                   },
                   {
                         "NameOfScene": "PandaThighSqueeze",
