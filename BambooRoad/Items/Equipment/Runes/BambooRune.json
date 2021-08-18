@@ -2,7 +2,7 @@
     "name": "Bamboo Rune",
     "itemType": "Rune",
     "cost": "500",
-    "descrip": "While eating a diet of bamboo shoots, increase your health and energy by 100! Also increase your Aphrodisiac tolerance by 20%"
+    "descrip": "While eating a diet of bamboo shoots, increase your health and energy by 100! Also increase your Aphrodisiac tolerance by 20%",
     "requires": [ ""],
     "perks": [ ""],
 

@@ -75,24 +75,156 @@
                                     "picture": ""
                                 }
                             ],
-                    "pictures": [
-                                  {
-                                    "Name": "Base",
-                                    "StartOn": "1",
-                                    "AlwaysOn": "1",
-                                    "IsScene": "0",
-                                    "TheBody": "1",
-                                    "Overlay": "No",
-                                    "setXalign": "0.0",
-                                    "setYalign": "0.0",
-                                    "Images": [
-                                    {
-                                    "Name": "Base",
-                                    "File": "../Mods/IzebelsMansion/Images/Monsters/Izebel/izebeldummy.jpg",
-                                    "setXalign": "0.0",
-                                    "setYalign": "0.0"
-                                      }
-                                    ]
-                                  }
-                                ]
-}
+                            "pictures": [
+                                                {
+                                                    "Name": "Body",
+                                                    "StartOn": "1",
+                                                    "AlwaysOn": "1",
+                                                    "IsScene": "0",
+                                                    "TheBody": "1",
+                                                    "Overlay": "No",
+                                                    "setXalign": "0",
+                                                    "setYalign": "0.15",
+                                                    "Images": [
+                                                      {
+                                                          "Name": "Base",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_lower_c_armnorm.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      },
+                                                      {
+                                                          "Name": "BaseNude",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_lower_n_armnorm.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      },
+                                                      {
+                                                          "Name": "Base2",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_lower_c_armumb.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      },
+                                                      {
+                                                          "Name": "BaseNude2",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_lower_n_armumb.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      }
+                                                  ]
+                                                },
+                                                {
+                                                    "Name": "Expression",
+                                                    "StartOn": "1",
+                                                    "AlwaysOn": "1",
+                                                    "IsScene": "0",
+                                                    "TheBody": "0",
+                                                    "Overlay": "No",
+                                                    "setXalign": "0.0",
+                                                    "setYalign": "0.15",
+                                                    "Images": [
+                                                      {
+                                                          "Name": "BaseFace",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_f01_base.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      },
+                                                      {
+                                                          "Name": "Blush",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_f_blush.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      },
+                                                      {
+                                                          "Name": "Amusing",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_f02_amusing.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      },
+                                                      {
+                                                          "Name": "Laugh",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_f03_laugh.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      },
+                                                      {
+                                                          "Name": "Annoyed",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_f04_annoyed.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      },
+                                                      {
+                                                          "Name": "Smug",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_f05_smug.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      },
+                                                      {
+                                                          "Name": "Sleep",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_f06_sleep.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      },
+                                                      {
+                                                          "Name": "Lewd",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_f07_lewd.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      },
+                                                      {
+                                                          "Name": "Orgasm",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_f08_orgasm.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      },
+                                                      {
+                                                          "Name": "Flustered",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_f09_flustered.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      },
+                                                      {
+                                                          "Name": "Glare",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_f10_glare.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      },
+                                                      {
+                                                          "Name": "Angry",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_f11_angry.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      },
+                                                      {
+                                                          "Name": "Caring",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_f12_caring.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                      },
+                                                      {
+                                                          "Name": "Cultured",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_f13_ofculture.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                        }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "Name": "HairandAccessory",
+                                                    "StartOn": "1",
+                                                    "AlwaysOn": "1",
+                                                    "IsScene": "0",
+                                                    "TheBody": "1",
+                                                    "Overlay": "No",
+                                                    "setXalign": "0",
+                                                    "setYalign": "0.15",
+                                                    "Images": [
+                                                        {
+                                                          "Name": "Hair",
+                                                          "File": "../Mods/BambooRoad/Images/Monsters/Izebel/char_izebel_upper.png",
+                                                          "setXalign": "0.0",
+                                                          "setYalign": "0.0"
+                                                        }
+                            ]
+                            }
+                            ]
+                            }

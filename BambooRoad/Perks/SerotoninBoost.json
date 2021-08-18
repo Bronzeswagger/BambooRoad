@@ -8,7 +8,7 @@
     "StatReqAmount": [ "0"],
 
     "PerkType": [ "TimeDuration", "Luck", "VirilityBoost", "InitiativeBonus" ],
-    "EffectPower": [ "6", "15", "50", "10" ],
+    "EffectPower": [ "6", "10", "100", "10" ],
 
     "PlayerCanPurchase": "No"
 }

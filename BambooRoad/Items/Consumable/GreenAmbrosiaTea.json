@@ -13,7 +13,7 @@
                       ],
     "descrip": "A green tea made from bamboo leaves and ambrosia, its said to relax the spirit. Increases your Spirit by 1.",
     "perks": [ ""],
-    "skills": [],
+    "skills": ["UsableItem"],
 
     "hp": "0",
     "ep": "0",

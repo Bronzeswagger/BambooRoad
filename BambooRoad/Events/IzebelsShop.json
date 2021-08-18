@@ -1,49 +1,269 @@
 {
-    "name": "Enter 'Xiongmao Parlor'",
-    "CardType": "Shopping",
-    "CardLimit": "0",
-    "Description": "",
-    "requires": [ ""],
-    "Speakers": [
-                  {
-                    "name": "Izebel",
-                    "postName": "",
-                    "SpeakerType": ""
-                  }
-                ],
-    "EventText": [
-                    {
-                  "NameOfScene": "Xiongmao Parlor",
-                  "theScene": [ "AllowInventory",
-                                "ChangeBGM", "BambooRoad/Music/House_-_Green_Tea.mp3",
-                                "ChangeBG", "oldhouseonbamboohill.jpg",
-                                "As you walk along the road of the village, you find Izebel's Shop.",
-                                "As you approached its doors, there was a large billboard over the building that said 'The Xiangmao Parlor'.",
-                                "ChangeBGM", "BambooRoad/Music/Unusual_Shop.mp3",
-                                "ChangeBG", "izebelshouse.jpg",
-                                "DisplayCharacter", "1",
-                                "As you enter in, a villager with a huge smile on his face is saying his goodbyes to none other than the shop owner, Izebel. She then sees you and smiles.",
-                                "Speaks1", "Glad to see you dear, anything I could help you with?",
-                                "JumptoScene", "IzebelsMenu"
-                            ]
-              },
-                    {
-                  "NameOfScene": "IzebelsMenu",
-                  "theScene": [ "Menu",
-                                "Shop.",
-                                "Leave.",
-                                "EndLoop"
-                            ]
-              },
-                    {
-                  "NameOfScene": "Shop",
-                  "theScene": [ "ShoppingMenu",
-                                "Bitter Elixir", "Bitter Panacea", "Bamboo Salve", "Green Ambrosia Tea", "Serotonin",
-                                "Rune of Elegance", "Panda Rune", "Grizzly Rune", "Bamboo Rune",
-                                "Pentagram Cock Ring", "Panda Charm", "Stylish Umbrella",
-                                "EndLoop",
-                                "JumptoScene", "IzebelsMenu"
-                            ]
-              }
-            ]
+	"name": "Enter 'Xiongmao Parlor'",
+	"CardType": "",
+	"CardLimit": "0",
+	"Description": "",
+	"requires": [""],
+	"Speakers": [{
+		"name": "Izebel",
+		"postName": "",
+		"SpeakerType": ""
+	}],
+	"EventText": [{
+			"NameOfScene": "Xiongmao Parlor",
+			"theScene": ["AllowInventory",
+				"ChangeBGM", "../Mods/BambooRoad/Music/House_-_Green_Tea.mp3",
+				"ChangeBG", "../Mods/BambooRoad/Images/oldhouseonbamboohill.jpg",
+				"As you walk along the road of the village, you find Izebel's Shop.",
+				"As you approached its doors, there was a large billboard over the building that said 'The Xiongmao Parlor'. From just the look of the outside, the store is a lot more decorated than most of the village itself.",
+				"Upon seeing villagers come and go, you decide to have a look inside",
+				"ChangeBGM", "../Mods/BambooRoad/Music/Unusual_Shop.mp3",
+				"ChangeBG", "../Mods/BambooRoad/Images/izebelshouse.jpg",
+				"DisplayCharacters", "1", "EndLoop",
+				"As you enter in, a villager with a huge smile on his face is saying his goodbyes to none other than the shop owner, Izebel. She then sees you and smiles.",
+				"ChangeImageLayer", "Expressions", "1", "Amusing",
+				"Speaks", "Glad to see you dear, anything I could help you with?",
+				"JumpToScene", "IzebelsMenu"
+			]
+		},
+		{
+			"NameOfScene": "IzebelsMenu",
+			"theScene": ["Menu",
+				"Chat with Izebel.",
+				"RequiresChoice", "4", "IzebelsProposition", "Fight.",
+				"RequiresChoice", "5", "IzebelDefeated", "Izebels Services",
+				"Shop.",
+				"Leave.",
+				"EndLoop"
+			]
+		},
+    {
+			"NameOfScene": "Chat with Izebel.",
+			"theScene": [ "ChangeImageLayer", "Expressions", "1", "BaseFace",
+        "Menu",
+        "About Izebel..",
+        "About the Village..",
+        "About Bamboo Road..",
+        "Do something else.",
+        "EndLoop"
+			]
+		},
+    {
+			"NameOfScene": "Do something else.",
+			"theScene": [ "JumpToScene", "IzebelsMenu",
+        "EndLoop"
+			]
+		},
+    {
+			"NameOfScene": "About Izebel..",
+			"theScene": [ "Menu",
+        "Are you a bear?",
+        "About Xiongmao Parlor..",
+        "RequiresChoice", "1", "HowtheParlorwasBorn", "Apothecary?",
+        "RequiresChoice", "2", "AskedAboutApothecary", "About your items..",
+        "RequiresChoice", "3", "HusbandMentionedTwice", "Husband?",
+				"You have very interesting charm about you..",
+        "Talk about something else.",
+				"EndLoop"
+			]
+		},
+    {
+			"NameOfScene": "Talk about something else.",
+			"theScene": [ "JumpToScene", "Chat with Izebel.",
+        "EndLoop"
+			]
+		},
+    {
+			"NameOfScene": "Are you a bear?",
+			"theScene": [ "ChangeImageLayer", "Expressions", "1", "Angry",
+        "Speaks", "Don't you dare compare me to them common ruffians!",
+        "ChangeImageLayer", "Expressions", "1", "Annoyed",
+        "Speaks", "I'm actually a Xiongmao, but if we were technical, I'm a panda",
+        "ChangeImageLayer", "Expressions", "1", "Smug",
+        "Speaks", "I'm also very proud of it, so please remember that.",
+        "JumpToScene", "About Izebel.."
+			]
+		},
+    {
+			"NameOfScene": "About Xiongmao Parlor..",
+			"theScene": [ "ChangeImageLayer", "Expressions", "1", "MockingLaugh",
+        "Speaks", "You like it? I suppose it is something different from most other stores in the region.",
+        "ChangeImageLayer", "Expressions", "1", "BaseFace",
+        "Speaks", "Twas' originally my home, but along with my husband, we transformed this into a store we both could be proud of, since we were apothecaries, it turned out to be beneficial to the villages benefit too.",
+        "Speaks", "Could say the village wouldn't be around if this store wasn't here to provide, most people here anyways have already moved away due to unfortunate circumstances.",
+        "SetChoice", "1", "HowtheParlorwasBorn",
+        "JumpToScene", "About Izebel.."
+			]
+		},
+    {
+			"NameOfScene": "Apothecary?",
+			"theScene": [ "ChangeImageLayer", "Expressions", "1", "MockingLaugh",
+        "Speaks", "Oh, you don't know? Apothecaries are sort of like healers, but instead of using healing magic, we tend to make medicines for certain things as we use certain different ingredients for those symptoms.",
+        "ChangeImageLayer", "Expressions", "1", "BaseFace",
+        "Speaks", "See this small cauldron on the counter? Its what I make most of my products in. Its a tedious process, but it at least makes money and helps the people here in the village.",
+        "Speaks", "I also use this cauldron for off-the-shelf products too, but only in dire emergency. Like when a viral sickness spreads around the town.",
+        "ChangeImageLayer", "Expressions", "1", "Annoyed",
+        "Speaks", "And if you haven't noticed already, people tend to be sickly here in the village. Not that I'm gloating or glad about it, but it makes for good business.",
+        "ChangeImageLayer", "Expressions", "1", "Caring",
+        "Speaks", "I'm not in it for that though. I geniunely want to help these people as I also owe them a lot. I wish to become a doctor at some point, hence why I keep studying in this profession.",
+        "SetChoice", "2", "AskedAboutApothecary",
+        "JumpToScene", "About Izebel.."
+			]
+		},
+    {
+			"NameOfScene": "About your items..",
+			"theScene": [ "ChangeImageLayer", "Expressions", "1", "Annoyed",
+        "Speaks", "What about them?",
+        "Menu",
+        "I've noticed these potions have side effects written on them.",
+        "EndLoop"
+			]
+		},
+    {
+			"NameOfScene": "I've noticed these potions have side effects written on them.",
+			"theScene": [ "ChangeImageLayer", "Expressions", "1", "Flustered",
+        "ChangeImageLayer", "BlushLayer", "1", "Blush",
+        "Speaks", "Oh, that...",
+        "ChangeImageLayer", "Expressions", "1", "Annoyed",
+        "Speaks", "I guess you could say even though I'm an apothecary, my husband was the better one of us both, I still somewhat have a hard time making the perfect potions and antidotes.",
+        "Speaks", "But fortunately, I've gotten to where these side effects are only temporary and are no actual real danger to a person unless in combat with monsters.",
+        "ChangeImageLayer", "Expressions", "1", "Smug",
+        "ChangeImageLayer", "BlushLayer", "1", "None",
+        "Speaks", "You could use these potions in battle, just keep in mind I wouldn't recommend it, unless you're actually interested in a monster taking advantge of your drugged state.",
+        "Although she says this, you kind of notice a weak smile as if she liked that idea.",
+        "SetChoice", "3", "HusbandMentionedTwice",
+        "JumpToScene", "About Izebel.."
+
+			]
+		},
+    {
+			"NameOfScene": "Husband?",
+			"theScene": [ "Speaks", "Oh, sorry, guess I did mention him.",
+        "Speaks", "He was my late husband, another Xiongmao like me. He passed away a few years back. He was.....a good man, a strong man..",
+        "Speaks", "As I've mentioned before, people tend to be sickly here, but one year, a disease came through the village, wiped a lot of folks I knew out.",
+        "Speaks", "My husband and I were treating people daily over it, eventually, the disease did pass and we found a cure for it, but not before my husband was claimed by it at the end.",
+        "Speaks", "Its...honestly weird really, the reason I wanted to be an apothecary was due to my husband, then when he was gone, I was a mess, but then villagers came one night about a week after I made his grave, and they all gave me all sorts of peace offerings as they thanked us for rescuing them from the disease.",
+        "Speaks", "I admit, I was heartbroken over my loss, but that night when they came, I realized I was so selfish, I wasn't the only one that had lost family during that hell. But they only thought of me.",
+        "Speaks", "Its thanks to them that my spirit was completely renewed and my passion to become a doctor was realized. Its because of these people I was able to live again, and I made a promise to myself. That'd I'd strive for them.",
+        "ChangeImageLayer", "Expressions", "1", "Annoyed",
+        "ChangeImageLayer", "BlushLayer", "1", "Blush",
+        "Izebel then quickly realizes how much she was saying and makes annnoyed blush.",
+        "ChangeImageLayer", "BlushLayer", "1", "None",
+        "Speaks", "That's enough about me for one day. Let's talk about something else or hurry up and buy something!",
+        "JumpToScene", "About Izebel.."
+			]
+		},
+    {
+			"NameOfScene": "About the Village..",
+			"theScene": [ "ChangeImageLayer", "Expressions", "1", "Caring",
+        "Speaks", "This village? Not much I can tell I'm afraid, its just here. Doesn't even have a name for it, although closest some people have thought of is 'Bamboo Village'. Since that's all that's around here.",
+        "ChangeImageLayer", "Expressions", "1", "Smug",
+        "Speaks", "Not that I mind much, bamboo is a necessity for us pandas. Its pretty much our whole world in terms of food. I stay on a healthy bamboo diet myself.",
+        "JumpToScene", "Chat with Izebel."
+			]
+		},
+    {
+			"NameOfScene": "About Bamboo Road..",
+			"theScene": [ "ChangeImageLayer", "Expressions", "1", "BaseFace",
+        "Speaks", "Bamboo Road is the road you traveled on to get here, its usually crawling with monsters like other Xiongmao's and Lizard women. They're also a lot tougher in this territory.",
+        "Speaks", "Might even come across a few ninjas both on the road and here in the village, they kind of originate from around here and are split from the ones you've probably seen elsewhere.",
+        "ChangeImageLayer", "Expressions", "1", "Smug",
+        "Speaks", "There's also legends around here of a wandering maiden in search of men to capture and to use as breeding slaves. They say she's the most beautiful girl in the region and that her hair is her most divine of any other woman.",
+        "ChangeImageLayer", "Expressions", "1", "Laugh",
+        "Speaks", "Not that I put any faith in that story, something more alluring than a Xiongmao like myself? Its hard to believe for someone like me, feel free to look for her though.",
+        "ChangeImageLayer", "Expressions", "1", "Annoyed",
+        "Izebel suddenly makes an annoyed expression as if angered by something.",
+        "Speaks", "If you do traverse Bamboo Road. Be careful though, there is a very troublesome monkey that roams around this forest pulling pranks on people, and that's a known fact, I've even unfortunately had a moment of coming across her once.",
+        "ChangeImageLayer", "Expressions", "1", "Angry",
+        "Speaks", "I'll NEVER be humilated again.",
+        "JumpToScene", "Chat with Izebel."
+			]
+		},
+		{
+			"NameOfScene": "You have very interesting charm about you..",
+			"theScene": [ "ChangeImageLayer", "Expressions", "1", "Smug",
+        "ChangeImageLayer", "BlushLayer", "1", "Blush",
+				"Speaks", "Oh do I?",
+				"Speaks", "I suppose you should know, but its just something we Xiongmaos, er, Pandas possess.",
+				"ChangeImageLayer", "Expressions", "1", "BaseFace",
+				"Speaks", "Even just a taste of our soft lewd bodies are enough to make a man's mind go blank and full of lust.",
+				"ChangeImageLayer", "Expressions", "1", "Smug",
+				"Speaks", "I would show you, but as tempting as it sounds, unlike other Pandas, I'm very picky. But since I'm interested, I'll give you my proposition I mentioned when you first arrived. I'll have you know that I do run a client service on the side for certain 'services' rendered.",
+				"ChangeImageLayer", "BlushLayer", "1", "None",
+				"ChangeImageLayer", "Expressions", "1", "BaseFace",
+				"Speaks", "However, there is a catch, I like my men {b}strong.{/b}",
+				"Speaks", "So....if you care to have a little private sparring match between us, just let me know, if you win, you might receive something nice in return.",
+        "ChangeImageLayer", "Expressions", "1", "Smug",
+				"Speaks", "Just keep in mind, just because I'm a Panda and look soft, I'll hope you don't under estimate my strength. I've wrecked my friend Vivian's bar quite a few times while being there. Just so you are warned.",
+        "SetChoice", "4", "IzebelsProposition",
+				"JumpToScene", "Chat with Izebel."
+			]
+		},
+		{
+        "NameOfScene": "Fight.",
+        "theScene": [ "ChangeImageLayer", "Expressions", "1", "Smug",
+					"Speaks", "Mmmmm, so...you want a taste of me hmm?",
+					"Speaks", "You better be sure you're prepared.",
+					"Menu",
+					"I'm prepared.",
+					"Oh, maybe I should prepare..",
+          "EndLoop"
+			]
+		},
+		{
+        "NameOfScene": "Oh, maybe I should prepare..",
+        "theScene": [ "ChangeImageLayer", "Expressions", "1", "Annoyed",
+					"Speaks", "Hmph..better hurry up then. I could change my mind.",
+					"JumpToScene", "IzebelsMenu"
+			]
+		},
+		{
+        "NameOfScene": "I'm prepared.",
+        "theScene": [ "ChangeImageLayer", "Expressions", "1", "Smug",
+					"Speaks", "You better be.",
+					"She directs you as you both walk into the back of the store, where there was a huge open space.",
+					"She then suprises you by taking one of her arms and flings you through the air to the other side of the room, where you get back up to meet Izebels gaze partially dizzy from her brute strength.",
+					"Speaks", "Ready or not, you asked for it. Come get some!",
+					"ChangeImageLayer", "Expressions", "1", "BaseFace",
+					 "Izebel raises her bear claws ready to strike",
+					"CombatEncounter", "NoRunning",
+					"Izebel",
+          "StartCombat",
+					"DisplayCharacters", "1", "EndLoop",
+					"ChangeImageLayer", "BlushLayer", "1", "Blush",
+					"ChangeImageLayer", "Expressions", "1", "Lewd",
+					"Izebel lays before you defeated and tired out, letting out a satisfied growl.",
+					"Speaks", "I-I gotta say, you're just the kind of man a gal would want. I've never felt this good in a while. Most of the time I find nothing but wimps.",
+          "ChangeImageLayer", "BlushLayer", "1", "None",
+					"SetChoice", "5", "IzebelDefeated",
+					"JumpToScene", "IzebelsMenu"
+			]
+		},
+		{
+        "NameOfScene": "Izebels Services",
+        "theScene": [ "{i}{b}Developer's Note:{/b}{/i} Sorry, this is Bronzeswagger, I'm still working on these fun little bits of writing here, will update soon!!",
+					"JumpToScene", "IzebelsMenu"
+			]
+		},
+		{
+			"NameOfScene": "Shop.",
+			"theScene": [ "ChangeImageLayer", "Expressions", "1", "BaseFace",
+        "ShoppingMenu",
+				"Bitter Elixir", "Bitter Panacea", "Bamboo Salve", "Green Ambrosia Tea", "Serotonin",
+				"Rune of Elegance", "Panda Rune", "Grizzly Rune", "Bamboo Rune",
+				"Pentagram Cock Ring", "Panda Charm", "Stylish Umbrella",
+				"EndLoop",
+				"JumpToScene", "IzebelsMenu"
+			]
+		},
+		{
+			"NameOfScene": "Leave.",
+			"theScene": ["ChangeImageLayer", "Expressions", "1", "Cultured",
+				"Speaks", "Au Revior, come again!",
+				"You leave the store and decide to return to town. But possibly interested in coming back later.",
+				"GoToTown",
+				"EndLoop"
+			]
+		}
+	]
 }

@@ -1,23 +1,9 @@
 {
     "name": "Go to Izebel's Store.",
     "Description": "Go visit Izebel at her unusual store!",
-    "MusicList": [ "music/House_-_Green_Tea.mp3"],
-    "requires": [ "Sigil of Will-Power"],
-    "requiresEvent": [
-                        {
-                          "NameOfEvent": "VisitingBambooRoad",
-                          "Progress": "-99",
-                          "ChoiceNumber": "1",
-                          "Choice": "Unlock Izebel's Shop"
-                        },
-                        {
-                          "NameOfEvent": "IzebelsShop",
-                          "Progress": "-99",
-                          "ChoiceNumber": "2",
-                          "Choice": ""
-                        }
-                      ],
-    "Deck": [ "Event", "'Izebel's Store'"],
+    "MusicList": [ "../Mods/BambooRoad/Music/House_-_Green_Tea.mp3"],
+    "requires": [""],
+    "Deck": ["Event", "'VisitingBambooRoad'"],
     "RandomEvents": [ ""],
     "RandomMonsters": [ "KunoichiTraineeBR", "TenguHarpyBR", "Ren Xiongmao", "LizardGirlBR"],
     "MonsterGroups": [

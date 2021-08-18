@@ -2,7 +2,7 @@
     "name": "Grizzly Rune",
     "itemType": "Rune",
     "cost": "800",
-    "descrip": "Harness the strength and power of a Grizzly? Increases Power and Willpower by 5%, but lower your Technique by 5% and decrease Charm by 10%"
+    "descrip": "Harness the strength and power of a Grizzly? Increases Power and Willpower by 5%, but lower your Technique by 5% and decrease Charm by 10%",
     "requires": [ ""],
     "perks": [ ""],
 

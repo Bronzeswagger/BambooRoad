@@ -1,16 +1,16 @@
 {
     "name": "Bamboo Road",
     "exploreTitle": "Bamboo Road",
-    "MusicList": ["../../Mods/IzebelsMansion/Music/Bamboo_Road_-_God_Tree.mp3"],
-    "mapIcon": "../../Mods/IzebelsMansion/Images/MGD_Bamboo_Road_Map_Icon.png",
+    "MusicList": ["../Mods/BambooRoad/Music/Bamboo_Road_-_Yuugennnoma.mp3"],
+    "mapIcon": "../Mods/BambooRoad/Images/MGD_Bamboo_Road_Map_Icon",
     "mapIconXpos": "0",
     "mapIconYpos": "0",
     "mapIconZorder": "1",
     "mapClouds": "",
     "mapCloudsXpos": "0",
     "mapCloudsYpos": "0",
-    "requires": ["Sigil of Will-Power"],
-    "FullyUnlockedBy": ["GetLegHumpedByBronzeswagger"],
+    "requires": ["Sigil Of Will-Power"],
+    "FullyUnlockedBy": ["Error 404"],
     "MinimumDeckSize": "8",
     "MaximumMonsterDeck": "6",
     "MaximumEventDeck": "4",
@@ -43,7 +43,7 @@
                 ],
     "Events": ["Aruka's Prank", "Fumiko's Trap", "Mimics", "Lust Rune", "Aruka the Jokester", "Ninja Rest Ambush", "Xiongmao Rescue"],
     "Quests": ["Stop the Jokester", "Find Bamboo Leaves", "Requested Locket of Hair", "Silk for Izebel"],
-    "Adventures": ["VisitingIzebel"],
+    "Adventures": ["Go to Izebel's Store."],
     "Treasure": [
                 {
                     "Common": ["Calming Potion", "Energy Potion", "Conscio Powder", "Sealing Talisman", "Perverted Talisman"]

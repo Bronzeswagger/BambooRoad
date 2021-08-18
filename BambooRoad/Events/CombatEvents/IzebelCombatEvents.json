@@ -18,7 +18,20 @@
                         "theScene": [
                                        "ApplyStatusEffect", "Charm",
                                        "GivePerkToMonster", "Dominatrix",
-                                       "Why fight? You can't resist my charms."]
+                                       "I'll make sure you can't resist my charms."]
+                  },
+                  {
+                        "NameOfScene": "PandaThighSqueeze",
+                        "theScene": [  "SetPostName", " - PandaThighSqueeze",
+                                       "FocusedSpeaksSkill",
+                                       "Your cock is aching for release between Izebels, and it's hard to even say no to her suggestion as she adoringly pampers you between her legs",
+                                       "EndLoop",
+                                       "SetPostName", "",
+                                       "IfFetishLevelEqualOrGreater", "Legs", "100", "CantResistLegs",
+                                       "Menu",
+                                       "Let her get you off!",
+                                       "Break loose!",
+                                       "EndLoop"]
                   },
                   {
                         "NameOfScene": "Breast Tease",
@@ -38,10 +51,39 @@
                                        "EndLoop"]
                   },
                   {
+                        "NameOfScene": "Let her get you off!",
+                        "theScene": [  "|f|ChangeImageLayer|/|Expressions|/|Smug|n|Izebel smiles devilishly as she starts pumping your cock pampering and massaging every bit of your length with her thighes, you eagerly want Izebel to finish you, but she denies you at everyt attempt, as to make it last as long as she can",
+                                       "FocusedSpeaks",
+                                       "I'm going to let you experience heaven♥",
+                                       "FocusedSpeaksSkill",
+                                       "|f|ChangeImageLayer|/|Expressions|/|Caring|n|She begins to gently grind your cock up and down between her thighes at a steady pace, teasing every fiber of your being as her thighes become your cocks most desired pillows, however, you can't take much longer and start to buck your hips into her thighes, almost ready for a release.",
+                                       "PlayerOrgasm", "1",
+                                       "FocusedSpeaksSkill",
+                                       "She knows you can't handle much more and as you make your last thrust she squeezes your manhood tightly between her legs as you make an explosive orgasm all in-between and down her thighes. Making Izebel purr in delight as she takes a hand and takes a taste of you.",
+                                       "FocusedSpeaks",
+                                       "|f|ChangeImageLayer|/|Expressions|/|Smug|n|Mmmmmmm, there was so much!♥ you must of really wanted that so badly as much as I wanted it.",
+                                       "EndLoop"]
+                  },
+                  {
                         "NameOfScene": "Fuck her tiddies!",
                         "theScene": [  "ApplyStance", "Titfuck",
                                        "HitPlayerWith", "Seducing Titfuck",
                                        "Izebel smiles devilishly as she wraps her soft breasts around you, letting out a sigh of bliss as it massages your every inch."]
+                  },
+                  {
+                        "NameOfScene": "Alluring Lips",
+                        "theScene": [  "SetPostName", " - Alluring Lips",
+                                       "FocusedSpeaksSkill",
+                                       "Izebel blows a kiss at the player enticing them to come closer",
+                                       "FocusedSpeaks",
+                                       "You know, I could pepper you with these lips all night long♥",
+                                       "EndLoop",
+                                       "SetPostName", "",
+                                       "IfFetishLevelEqualOrGreater", "Kiss", "100", "CantResistKisses",
+                                       "Menu",
+                                       "Get closer to her!",
+                                       "Ignore the temptation!",
+                                       "EndLoop"]
                   },
                   {
                         "NameOfScene": "CantResistBreasts",
@@ -54,6 +96,46 @@
                         "theScene": [  "Izebel frowns in annoyance as you ignore her offer.",
                                        "FocusedSpeaks",
                                        "'Awww, you poor thing...maybe something else?'"]
+                  },
+                  {
+                        "NameOfScene": "Broke Loose!",
+                        "theScene": [  "removesStance", "Thighjob",
+                                       "|f|ChangeImageLayer|/|Expressions|/|Flustered|n|Izebel yelps as you overpower her and throw her off of you, and then quickly climb over the top of her!",
+                                       "ApplyStatusEffectToMonster", "Restrain",
+                                       "FocusedSpeaks",
+                                       "Wha-aaa?!",
+                                       "Menu",
+                                       "Penetrate her!",
+                                       "Penetrate her ass!",
+                                       "EndLoop"]
+                  },
+                  {
+                    "NameOfScene": "Penetrate her!",
+                    "theScene": [  "ApplyStance", "Sex",
+                                   "HitMonsterWith", "Thrust",
+                                   "|f|ChangeImageLayer|/|Expressions|/|Orgasm|n|You thrust into her throwing her by surprise and catching her offguard!",
+                                   "FocusedSpeaks",
+                                   "Ah-mmmm!♥"]
+                  },
+                  {
+                    "NameOfScene": "Penetrate her!",
+                    "theScene": [  "ApplyStance", "Anal",
+                                   "HitMonsterWith", "Thrust",
+                                   "|f|ChangeImageLayer|/|Expressions|/|Orgasm|n|You thrust into her ass throwing her by surprise and catching her offguard!",
+                                   "FocusedSpeaks",
+                                   "Ah-ah!♥ You went there?!♥"]
+                  },
+                  {
+                        "NameOfScene": "Break loose!",
+                        "theScene": [  "You think of resisting Izebel's offer of getting you off since it'll be harder to defeat her, but her thighes are making your mind go blank with ecstacy...",
+                                       "StatCheck",
+                                       "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Legs", "25", "2",
+                                       "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Legs", "50", "3",
+                                       "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Legs", "75", "5",
+                                       "ChangeStatCheckDifficulty", "IfPlayerHasStatusEffect", "Charm", "4",
+                                       "Temptation", "20", "Broke Loose!",
+                                       "Fail",
+                                       "CantResistLegs"]
                   },
                   {
                         "NameOfScene": "Ignore her Breasts.",
@@ -73,7 +155,7 @@
                                        "FocusedSpeaksSkill",
                                        "Izebel manages to catch {TargetName} and pin him to a corner long enough to take a good look at his throbbing erection.",
                                        "FocusedSpeaks",
-                                       "You're pretty big, why not let me have a taste? It won't do you any harm..hehehe",
+                                       "|f|ChangeImageLayer|/|Expressions|/|Caring|n|You're pretty big, why not let me have a taste? It won't do you any harm..hehehe",
                                        "FocusedSpeaksSkill",
                                        "Your cock is aching for Izebel to pepper you and it's hard to even say no to her enticing suggestion help you along...",
                                        "EndLoop",
@@ -81,14 +163,14 @@
                                        "IfFetishLevelEqualOrGreater", "Oral", "100", "CantResistOral",
                                        "Menu",
                                        "Let her service you!",
-                                       "Ignore her offer.",
+                                       "Ignore her offer!",
                                        "EndLoop"]
                   },
                   {
                         "NameOfScene": "Let her service you!",
                         "theScene": [  "ApplyStance", "Blowjob",
                                        "HitPlayerWith", "Seducing Blowjob",
-                                       "Izebel smiles devilishly as she wraps her soft breasts around you, letting out a sigh of bliss as it massages your every inch."]
+                                       "Izebel smiles devilishly as she encloses her lips around your length, letting out a purr as she worships your cock with her mouth"]
                   },
                   {
                         "NameOfScene": "CantResistOral",
@@ -103,7 +185,29 @@
                                        "'Awww, you poor thing...maybe something else?'"]
                   },
                   {
-                        "NameOfScene": "Ignore her offer.",
+                        "NameOfScene": "Get closer to her!",
+                        "theScene": ["ApplyStance", "Making Out",
+                                     "HitPlayerWith", "Sensually Seductive Kiss",
+                                     "Without a second thought, you rush forward and press your lips into Izebel's as she deviously giggles in delight, wanting nothing more than to feel and taste her sweet, soft lips.{DamageToPlayer}"]
+                  },
+                  {
+                        "NameOfScene": "CantResistKisses",
+                        "theScene": [ "ApplyStance", "Making Out",
+                                      "HitPlayerWith", "Sensually Seductive Kiss",
+                                      "Without a second thought, you rush forward and press your lips into Izebel's, wanting nothing more than to feel and taste her sweet, soft lips.{DamageToPlayer}"]
+                  },
+                  {
+                        "NameOfScene": "CantResistLegs",
+                        "theScene": [ "You couldn't resist the temptation and Izebel makes smug grin knowing the position you're in.",
+                                      "JumpToScene", "Let her get you off!"]
+                  },
+                  {
+                        "NameOfScene": "IgnoredKisses",
+                        "theScene": [ "ChangeImageLayer", "Expression", "1", "Annoyed",
+												              "Izebel becomes slighlty annoyed that her charms didn't work."]
+                  },
+                  {
+                        "NameOfScene": "Ignore her offer!",
                         "theScene": [  "You think of resisting Izebel's offer of her services, but her sexual prowess is making it a little hard to think straight...",
                                        "StatCheck",
                                        "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "25", "2",
@@ -113,6 +217,18 @@
                                        "Temptation", "20", "IgnoredBlowjob",
                                        "Fail",
                                        "CantResistOral"]
-                                      }
+                  },
+                  {
+                        "NameOfScene": "Ignore the temptation!",
+                        "theScene": [  "You make an effort to resist the temptation of Izebels lips, as she gives you a small kiss with a smug on her face...",
+                                       "StatCheck",
+                                       "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Kissing", "25", "2",
+                                       "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Kissing", "50", "3",
+                                       "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Kissing", "75", "5",
+                                       "ChangeStatCheckDifficulty", "IfPlayerHasStatusEffect", "Charm", "4",
+                                       "Temptation", "20", "IgnoredKisses",
+                                       "Fail",
+                                       "CantResistKisses"]
+                  }
             ]
 }
