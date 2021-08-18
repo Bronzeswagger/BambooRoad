@@ -55,17 +55,16 @@
                   },
                   {
                         "NameOfScene": "Let her get you off!",
-                        "theScene": [  "|f|ChangeImageLayer|/|Expressions|/|Smug|n|Izebel smiles devilishly as she starts pumping your cock pampering and massaging every bit of your length with her thighes, you eagerly want Izebel to finish you, but she denies you at everyt attempt, as to make it last as long as she can",
+                        "theScene": [  "Izebel smiles devilishly as she starts pumping your cock pampering and massaging every bit of your length with her thighes, you eagerly want Izebel to finish you, but she denies you at everyt attempt, as to make it last as long as she can",
                                        "FocusedSpeaks",
                                        "I'm going to let you experience heaven♥",
                                        "FocusedSpeaksSkill",
-                                       "|f|ChangeImageLayer|/|Expressions|/|Caring|n|She begins to gently grind your cock up and down between her thighes at a steady pace, teasing every fiber of your being as her thighes become your cocks most desired pillows, however, you can't take much longer and start to buck your hips into her thighes, almost ready for a release.",
+                                       "She begins to gently grind your cock up and down between her thighes at a steady pace, teasing every fiber of your being as her thighes become your cocks most desired pillows, however, you can't take much longer and start to buck your hips into her thighes, almost ready for a release.",
                                        "PlayerOrgasm", "1",
                                        "FocusedSpeaksSkill",
                                        "She knows you can't handle much more and as you make your last thrust she squeezes your manhood tightly between her legs as you make an explosive orgasm all in-between and down her thighes. Making Izebel purr in delight as she takes a hand and takes a taste of you.",
                                        "FocusedSpeaks",
-                                       "|f|ChangeImageLayer|/|Expressions|/|Smug|n|Mmmmmmm, there was so much!♥ you must of really wanted that so badly as much as I wanted it.",
-                                       "EndLoop"]
+                                       "Mmmmmmm, there was so much!♥ you must of really wanted that so badly as much as I wanted it."]
                   },
                   {
                         "NameOfScene": "Fuck her tiddies!",
@@ -103,7 +102,7 @@
                   {
                         "NameOfScene": "Broke Loose!",
                         "theScene": [  "removesStance", "Thighjob",
-                                       "|f|ChangeImageLayer|/|Expressions|/|Flustered|n|Izebel yelps as you overpower her and throw her off of you, and then quickly climb over the top of her!",
+                                       "Izebel yelps as you overpower her and throw her off of you, and then quickly climb over the top of her!",
                                        "ApplyStatusEffectToMonster", "Restrain",
                                        "FocusedSpeaks",
                                        "Wha-aaa?!",
@@ -116,7 +115,7 @@
                     "NameOfScene": "Penetrate her!",
                     "theScene": [  "ApplyStance", "Sex",
                                    "HitMonsterWith", "Thrust",
-                                   "|f|ChangeImageLayer|/|Expressions|/|Orgasm|n|You thrust into her throwing her by surprise and catching her offguard!",
+                                   "You thrust into her throwing her by surprise and catching her offguard!",
                                    "FocusedSpeaks",
                                    "Ah-mmmm!♥"]
                   },
@@ -124,7 +123,7 @@
                     "NameOfScene": "Penetrate her ass!",
                     "theScene": [  "ApplyStance", "Anal",
                                    "HitMonsterWith", "Thrust",
-                                   "|f|ChangeImageLayer|/|Expressions|/|Orgasm|n|You thrust into her ass throwing her by surprise and catching her offguard!",
+                                   "You thrust into her ass throwing her by surprise and catching her offguard!",
                                    "FocusedSpeaks",
                                    "Ah-ah!♥ You went there?!♥"]
                   },
@@ -206,7 +205,7 @@
                   },
                   {
                         "NameOfScene": "IgnoredKisses",
-                        "theScene": [ "|f|ChangeImageLayer|/|Expressions|/|Annoyed|n|Izebel becomes slighlty annoyed that her charms didn't work."]
+                        "theScene": [ "Izebel becomes slighlty annoyed that her charms didn't work."]
                   },
                   {
                         "NameOfScene": "Ignore her offer!",
